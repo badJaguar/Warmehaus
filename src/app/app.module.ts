@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './menu/footer/footer.component';
 import { DefaultPageComponent } from './default-page/default-page.component';
 import { CarouselComponent } from './default-page/carousel/carousel.component';
+// import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CarouselComponent } from './default-page/carousel/carousel.component';
     MenuComponent,
     FooterComponent,
     DefaultPageComponent,
-    CarouselComponent
+    CarouselComponent,
+    // NguCarouselModule
   ],
   imports: [
     BrowserModule,
