@@ -1,4 +1,8 @@
 .footer{
-    background-color: rgb(233, 195, 29);
+    background-color: rgb(46, 39, 10);
     height: 100px;
+    color : white;
+}
+strong{
+    color: white
 }

@@ -1,3 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bulma/css/bulma.css";
 @import "~bootstrap/dist/css/bootstrap.css";
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing.dark-backdrop {
+    background: #000;
+    opacity: 0.85 !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  html, body {
+      min-height: 100% !important;
+      height: 100%;
+  }
+  body {
+      background: darkgrey;
+  }
+  
