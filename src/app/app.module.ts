@@ -7,6 +7,8 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './menu/footer/footer.component';
 import { DefaultPageComponent } from './default-page/default-page.component';
 import { CarouselComponent } from './default-page/carousel/carousel.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 // import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
@@ -16,11 +18,15 @@ import { CarouselComponent } from './default-page/carousel/carousel.component';
     FooterComponent,
     DefaultPageComponent,
     CarouselComponent,
+    
     // NguCarouselModule
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule, 
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
