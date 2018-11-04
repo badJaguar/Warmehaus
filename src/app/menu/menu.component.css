@@ -1,3 +1,7 @@
 .navbar{
-    background-color: rgb(255, 214, 30)
+    background-color: rgb(255, 214, 30);
+    min-height: 70px;
+}
+img {
+height: 100px;
 }
