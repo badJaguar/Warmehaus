@@ -11,7 +11,12 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
    MatCardModule, MatGridListModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CdkTableModule } from '@angular/cdk/table';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { MaterialModule } from 'src/modules/material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -28,12 +33,19 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatCheckboxModule,
     NguCarouselModule,
-    BrowserModule,
     FormsModule,
     MatToolbarModule,
     MatTableModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MaterialModule,
+    CdkTableModule,
+    OverlayModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
