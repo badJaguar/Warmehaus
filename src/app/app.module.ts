@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CdkTableModule } from '@angular/cdk/table';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MaterialModule } from 'src/modules/material/material.module';
+import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MaterialModule } from 'src/modules/material/material.module';
     FooterComponent,
     DefaultPageComponent,
     CarouselComponent,
+    WarmehausComponent,
   ],
   imports: [
     BrowserModule,
