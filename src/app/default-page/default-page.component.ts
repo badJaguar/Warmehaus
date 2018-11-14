@@ -18,8 +18,8 @@ export interface Tile {
 })
 export class DefaultPageComponent implements OnInit {
   tiles: Tile[] = [
-    {text: 'One', cols: 4, rows: 1, color:'https://www.gstatic.com/webp/gallery3/1.png'},
-    {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
+    {text: 'One', cols: 4, rows: 1, color:('https://www.gstatic.com/webp/gallery3/1.png')},
+    {text: 'Two', cols: 1, rows: 2, color:'https://www.gstatic.com/webp/gallery3/1.png'},
     {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
     {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
 
