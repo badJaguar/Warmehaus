@@ -17,6 +17,7 @@ import { CdkTableModule } from '@angular/cdk/table';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MaterialModule } from 'src/modules/material/material.module';
 import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
+import { ToolbarComponent } from './menu/toolbar/toolbar.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
     DefaultPageComponent,
     CarouselComponent,
     WarmehausComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.first{
+    height: 100px;
+}
+
+.second {
+    background-color: red;
+    height: 70px;
+}
+
+.third{
+    height: 55px;
+    background-color: black;
+}
