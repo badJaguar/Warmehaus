@@ -7,14 +7,6 @@ export interface Tile {
   url: string;
 }
 
-export interface Picture{
-  url: string;
-}
-
-/**
- * @title Dynamic grid-list
- */
-
 @Component({
   selector: 'app-default-page',
   templateUrl: './default-page.component.html',
@@ -23,7 +15,7 @@ export interface Picture{
 export class DefaultPageComponent implements OnInit {
   tiles: Tile[] = [
     {url: "../../assets/images/logo.png", cols: 4, rows: 1, color: 'lightblue'},
-    {url: "../../assets/images/gridPics/cabel.png", cols: 1, rows: 2, color:'#DCDDE5'},
+    {url: "../../assets/images/gridPics/cabel.png", cols: 1, rows: 2, color:'#cacaca'},
     {url: "../../assets/images/gridPics/ir.png", cols: 1, rows: 1, color: 'lightpink'},
     {url: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
 
