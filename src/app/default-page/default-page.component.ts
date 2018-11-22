@@ -4,7 +4,11 @@ export interface Tile {
   color: string;
   cols: number;
   rows: number;
-  text: string;
+  url: string;
+}
+
+export interface Picture{
+  url: string;
 }
 
 /**
@@ -18,15 +22,15 @@ export interface Tile {
 })
 export class DefaultPageComponent implements OnInit {
   tiles: Tile[] = [
-    {text: 'One', cols: 4, rows: 1, color:('https://www.gstatic.com/webp/gallery3/1.png')},
-    {text: 'Two', cols: 1, rows: 2, color:'https://www.gstatic.com/webp/gallery3/1.png'},
-    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
+    {url: "../../assets/images/logo.png", cols: 4, rows: 1, color: 'lightblue'},
+    {url: "../../assets/images/gridPics/cabel.png", cols: 1, rows: 2, color:'#DCDDE5'},
+    {url: "../../assets/images/gridPics/ir.png", cols: 1, rows: 1, color: 'lightpink'},
+    {url: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
 
-    {text: 'Five', cols: 2, rows: 1, color: 'lightpink'},
-    {text: 'Six', cols: 1, rows: 1, color: '#DDBDF1'},
-    {text: 'Seven', cols: 2, rows: 2, color: 'lightpink'},
-    {text: 'Eight', cols: 2, rows: 2, color: '#DDBDF1'},
+    {url: 'Five', cols: 2, rows: 1, color: 'lightpink'},
+    {url: 'Six', cols: 1, rows: 1, color: '#DDBDF1'},
+    {url: 'Seven', cols: 2, rows: 2, color: 'lightpink'},
+    {url: 'Eight', cols: 2, rows: 2, color: '#DDBDF1'},
   ];
   constructor() { }
 
