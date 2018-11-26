@@ -1,12 +1,12 @@
 <!--<app-carousel></app-carousel>-->
-<mat-card>
+<mat-card class="card">
 <mat-grid-list class="grid" cols="4" gutterSize="1" rowHeight="">
         <mat-grid-tile
             *ngFor="let tile of tiles"
             [colspan]="tile.cols"
             [rowspan]="tile.rows"
             [style.background]="tile.color">
-          <img src= {{tile.url}} height="600" width="520">
+          <img src= {{tile.url}} height="600" width="1200">
         </mat-grid-tile>
       </mat-grid-list>
     </mat-card>

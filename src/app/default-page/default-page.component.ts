@@ -14,15 +14,16 @@ export interface Tile {
 })
 export class DefaultPageComponent implements OnInit {
   tiles: Tile[] = [
-    {url: "../../assets/images/logo.png", cols: 4, rows: 1, color: 'lightblue'},
-    {url: "../../assets/images/gridPics/cabel.png", cols: 1, rows: 2, color:'#cacaca'},
-    {url: "../../assets/images/gridPics/ir.png", cols: 1, rows: 1, color: 'lightpink'},
-    {url: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
+    {url: "../../assets/images/gridPics/Logo_Banner.png", cols: 4, rows: 1, color: 'lightblue'},
+    {url: "../../assets/images/gridPics/Нагревательный_Кабель.png", cols: 1, rows: 2, color:'#cacaca'},
+    {url: "../../assets/images/gridPics/Инфракрасная_Плёнка.png", cols: 1, rows: 1, color: 'lightpink'},
+    {url: "../../assets/images/gridPics/Нагревательный_Мат.png", cols: 2, rows: 1, color: '#DDBDF1'},
 
     {url: 'Five', cols: 2, rows: 1, color: 'lightpink'},
     {url: 'Six', cols: 1, rows: 1, color: '#DDBDF1'},
-    {url: 'Seven', cols: 2, rows: 2, color: 'lightpink'},
-    {url: 'Eight', cols: 2, rows: 2, color: '#DDBDF1'},
+    {url: 'Seven', cols: 2, rows: 1, color: 'lightpink'},
+    {url: 'Eight', cols: 2, rows: 1, color: '#DDBDF1'},
+    {url: 'Eight', cols: 4, rows: 1, color: '#DDBDF1'},
   ];
   constructor() { }
 
