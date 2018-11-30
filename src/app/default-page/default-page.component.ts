@@ -4,7 +4,7 @@ export interface Tile {
   color: string;
   cols: number;
   rows: number;
-  url: string;
+  picUrl: string;
 }
 
 @Component({
@@ -14,16 +14,16 @@ export interface Tile {
 })
 export class DefaultPageComponent implements OnInit {
   tiles: Tile[] = [
-    {url: "../../assets/images/gridPics/Слайд.png", cols: 4, rows: 1, color: 'lightblue'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 2, rows: 1, color:'#cacaca'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 2, rows: 1, color: '#DDBDF1'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 2, rows: 1, color: '#DDBDF1'},
+    {picUrl: "../../assets/images/gridPics/Слайд.png", cols: 4, rows: 1, color: 'lightblue'},
+    {picUrl: "../../assets/images/gridPics/Нагревательный_Мат_160Вт.png", cols: 2, rows: 1, color:'#cacaca'},
+    {picUrl: "../../assets/images/gridPics/Нагревательный_Мат_200Вт.png", cols: 2, rows: 1, color: '#DDBDF1'},
+    {picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_слой_11Вт.png", cols: 2, rows: 1, color: '#DDBDF1'},
 
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 2, rows: 1, color: 'lightpink'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 2, rows: 1, color: '#DDBDF1'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 1, rows: 1, color: 'lightpink'},
-    {url: "../../assets/images/gridPics/Нагревательный_Мат_160w.png", cols: 1, rows: 1, color: '#DDBDF1'},
-    {url: 'Eight', cols: 4, rows: 1, color: '#DDBDF1'},
+    {picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_слой_14Вт.png", cols: 2, rows: 1, color: 'lightpink'},
+    {picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_стяжку_20Вт.png", cols: 2, rows: 1, color: '#DDBDF1'},
+    {picUrl: "../../assets/images/gridPics/Инфракрасная_Плёнка.png", cols: 2, rows: 1, color: 'lightpink'},
+    {picUrl: "../../assets/images/gridPics/Системы_антиобледенения.png", cols: 2, rows: 1, color: '#DDBDF1'},
+    {picUrl: "../../assets/images/gridPics/Терморегуляторы.png", cols: 2, rows: 1, color: '#DDBDF1'},
   ];
   constructor() { }
 

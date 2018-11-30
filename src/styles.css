@@ -30,8 +30,13 @@
   html, body {
       min-height: 100% !important;
       height: 100%;
+      /*max-width: 1820px; /* Можно подправить */
+      /*margin-left: auto;
+      /*margin-right: auto*/
   }
   body {
       background: darkgrey;
+      margin-block-start: 100px;
+      
   }
   
