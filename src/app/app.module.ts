@@ -18,6 +18,7 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { MaterialModule } from 'src/modules/material/material.module';
 import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
 import { ToolbarComponent } from './menu/toolbar/toolbar.component';
+import { MainPageComponent } from './pages/main-page/main-page.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { ToolbarComponent } from './menu/toolbar/toolbar.component';
     CarouselComponent,
     WarmehausComponent,
     ToolbarComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
