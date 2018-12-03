@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PhonesSheetComponent } from './phones-sheet/phones-sheet.component';
+import {MatBottomSheet} from '@angular/material';
 
 @Component({
   selector: 'app-menu',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private bottomSheet: MatBottomSheet) {}
+
+  openBottomSheet(): void {
+    this.bottomSheet.open(PhonesSheetComponent);
+  }
 
   ngOnInit() {
   }

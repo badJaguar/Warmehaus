@@ -9,7 +9,7 @@ import { DefaultPageComponent } from './default-page/default-page.component';
 import { CarouselComponent } from './default-page/carousel/carousel.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
-   MatCardModule, MatGridListModule} from '@angular/material';
+   MatCardModule, MatGridListModule, MatBottomSheetModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,6 +19,7 @@ import { MaterialModule } from 'src/modules/material/material.module';
 import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
 import { ToolbarComponent } from './menu/toolbar/toolbar.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
+import { PhonesSheetComponent } from './menu/phones-sheet/phones-sheet.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
     WarmehausComponent,
     ToolbarComponent,
     MainPageComponent,
+    PhonesSheetComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,14 +46,12 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
     MatTableModule,
     MatCardModule,
     MatGridListModule,
-    FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
     HttpClientModule,
     MaterialModule,
     CdkTableModule,
     OverlayModule,
-
+    MatBottomSheetModule
   ],
   providers: [],
   bootstrap: [AppComponent]

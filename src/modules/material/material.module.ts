@@ -5,7 +5,7 @@ import {
   MatButtonModule, MatCheckboxModule, MatProgressSpinnerModule, MatChipsModule, MatSnackBarModule,
   MatDialogModule, MatTooltipModule, MatInputModule, MatFormFieldModule, MatOptionModule,
   MatAutocompleteModule, MatTableModule, MatPaginatorModule, MatSelectModule, MatStepperModule,
-  MatExpansionModule, 
+  MatExpansionModule,
 
 } from '@angular/material';
 
