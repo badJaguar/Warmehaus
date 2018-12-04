@@ -7,6 +7,7 @@ import {MatBottomSheet} from '@angular/material';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
+
 export class MenuComponent implements OnInit {
 
   constructor(private bottomSheet: MatBottomSheet) {}

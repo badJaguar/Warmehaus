@@ -51,7 +51,10 @@ import { PhonesSheetComponent } from './menu/phones-sheet/phones-sheet.component
     MaterialModule,
     CdkTableModule,
     OverlayModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+  ],
+  entryComponents: [
+    PhonesSheetComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
