@@ -4,9 +4,9 @@
         <mat-grid-tile
             *ngFor="let tile of tiles"
             [colspan]="tile.cols"
-            [rowspan]="tile.rows"
-            [style.background]="tile.color">
-          <img src= {{tile.picUrl}} height="600" width="1910">
+            [rowspan]="tile.rows">
+            <a href="#" routerLink={{tile.route}} routerLinkActive="active" >
+          <img src= {{tile.picUrl}} alt= {{tile.alt}} height="600" width="1910"></a>
         </mat-grid-tile>
       </mat-grid-list>
     </mat-card>

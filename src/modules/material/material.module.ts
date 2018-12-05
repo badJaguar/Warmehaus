@@ -19,7 +19,6 @@ import { MatBottomSheetModule } from '@angular/material';
     MatSnackBarModule, MatDialogModule, MatTooltipModule, MatInputModule, MatFormFieldModule, MatOptionModule,
     MatAutocompleteModule, MatTableModule, MatPaginatorModule, MatToolbarModule, MatSelectModule, MatExpansionModule, MatStepperModule,
 
-
     /* Popups & Modals */
     MatBottomSheetModule,
   ],

@@ -1,18 +1,16 @@
 .navbar{
     background-color: rgb(255, 255, 0);
-    height: 100px;
+    width: 100%
 }
 
 .navbar-item{
     margin-right: 5px;
     margin-left: 5px;
 }
-.menu{
-    width: 100%
-}
 button{
     margin-left: 20px
 }
-.burger{
-    align-self: right;
-}
+button:focus {
+    outline: none;
+    border: 0;
+ }

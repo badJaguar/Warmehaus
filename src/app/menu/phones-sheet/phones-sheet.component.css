@@ -1,0 +1,11 @@
+img {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: inline-flex;
+    align-items: center;
+    margin-left: 17%;
+}
+p{
+    text-align-last: center;
+    font-weight: bold
+}
