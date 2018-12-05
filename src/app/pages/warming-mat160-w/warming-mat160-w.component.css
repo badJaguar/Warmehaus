@@ -3,10 +3,35 @@ table {
   }
   
   .mat-form-field {
-    font-size: 14px;
+    font-size: 17px;
     width: 100%;
   }
   
   td, th {
-    width: 25%;
+    width: 40%;
   }
+  .mat-header-cell{
+      font-display: inline;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center
+  }
+  @media only screen and (max-width: 768px) {
+    b {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    b {
+      font-size: 10px;
+    }
+  }
+  /* td:nth-of-type(2){
+    font-weight: bold;
+  } */
+  mat-paginator{
+      font-weight: bold;
+      color: black
+  }
+  
