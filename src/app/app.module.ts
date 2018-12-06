@@ -21,7 +21,7 @@ import { ToolbarComponent } from './menu/toolbar/toolbar.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { PhonesSheetComponent } from './menu/phones-sheet/phones-sheet.component';
 import { WarmingMat160WComponent } from './pages/warming-mat160-w/warming-mat160-w.component';
-
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
@@ -35,6 +35,7 @@ import { WarmingMat160WComponent } from './pages/warming-mat160-w/warming-mat160
     MainPageComponent,
     PhonesSheetComponent,
     WarmingMat160WComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -54,7 +55,8 @@ import { WarmingMat160WComponent } from './pages/warming-mat160-w/warming-mat160
     CdkTableModule,
     OverlayModule,
     MatBottomSheetModule,
-    MatSortModule
+    MatSortModule,
+    FlexLayoutModule
   ],
   entryComponents: [
     PhonesSheetComponent
