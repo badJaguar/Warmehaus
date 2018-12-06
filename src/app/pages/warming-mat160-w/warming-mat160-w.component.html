@@ -1,11 +1,11 @@
 <mat-card class="mat-elevation-z8">
-  <h2>Нагревательный мат 160 Вт.</h2>
+  <mat-card-title>Нагревательный мат 160 Вт.</mat-card-title>
   <mat-divider></mat-divider>
   <mat-form-field>
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
   </mat-form-field>
 
-  <div class="mat-elevation-z8">
+  <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource" matSort>
 
       <!-- ID Column -->
@@ -39,6 +39,6 @@
       </tr>
     </table>
 
-    <mat-paginator [pageSizeOptions]="[5, 10, displayedColumns.length]"></mat-paginator>
+    <mat-paginator [pageSizeOptions]="[5, 10, 15]"></mat-paginator>
   </div>
 </mat-card>

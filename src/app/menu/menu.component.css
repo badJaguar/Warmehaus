@@ -14,3 +14,7 @@ button:focus {
     outline: none;
     border: 0;
  }
+ a:hover {
+     color: black;
+     text-decoration: none
+ }
