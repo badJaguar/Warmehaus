@@ -5,8 +5,8 @@ import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
 import { WarmingMat160WComponent } from './pages/warming-mat160-w/warming-mat160-w.component';
 
 const routes: Routes = [
-  { path: '', component: DefaultPageComponent, pathMatch: 'full' },
-  {path: 'warmehaus', component: WarmehausComponent },
+  { path: 'home', component: DefaultPageComponent, pathMatch: 'full' },
+  {path: 'warmehaus', component: WarmehausComponent, pathMatch: 'full' },
   {path: 'warming-mat-160W', component: WarmingMat160WComponent, pathMatch: 'full' },
 ];
 
