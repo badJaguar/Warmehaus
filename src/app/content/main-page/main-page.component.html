@@ -1,5 +1,16 @@
-<app-warmehaus></app-warmehaus>
+<mat-card class="card">
+    <mat-grid-list class="grid" cols="4" gutterSize="10" rowHeight="">
+            <mat-grid-tile
+                *ngFor="let tile of tiles"
+                [colspan]="tile.cols"
+                [rowspan]="tile.rows">
+                <a href="#" routerLink={{tile.route}} routerLinkActive="active" >
+              <img src= {{tile.picUrl}} alt= {{tile.alt}} height="600" width="1910"></a>
+            </mat-grid-tile>
+          </mat-grid-list>
+        </mat-card>
 <mat-card>
+        <router-outlet></router-outlet>
   <h1>ТЕПЛЫЙ ПОЛ ПОД ПЛИТКУ И ЛАМИНАТ ПО ДОСТУПНОЙ ЦЕНЕ</h1>
   
   <div class="content clearfix">

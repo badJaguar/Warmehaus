@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContentComponent } from './content.component';
+import { WarmingMat200WComponent } from './warming-mat200-w.component';
 
-describe('ContentComponent', () => {
-  let component: ContentComponent;
-  let fixture: ComponentFixture<ContentComponent>;
+describe('WarmingMat200WComponent', () => {
+  let component: WarmingMat200WComponent;
+  let fixture: ComponentFixture<WarmingMat200WComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContentComponent ]
+      declarations: [ WarmingMat200WComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContentComponent);
+    fixture = TestBed.createComponent(WarmingMat200WComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
