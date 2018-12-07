@@ -1,0 +1,6 @@
+a, span, .breadcrumb-item{
+    padding: 0 14px;
+    font-weight: bold;
+    color: white;
+    text-align: start
+}
