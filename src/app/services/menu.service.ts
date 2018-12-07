@@ -8,11 +8,11 @@ export class MenuService {
   constructor() { }
   getMenu(): Array<any> {
     const menu = [
-      { name: 'home', path: './home', children: [] },
-      { name: 'warmehaus', path:'./warmehaus', children: [
+      { name: 'Главная', path: './home', children: [] },
+      { name: 'Wärmehaus', path:'./warmehaus', children: [
 
-        {name: 'mat160w', path: './mat-160W'},
-        {name: 'mat200w', path: './mat-200W'},
+        {name: 'Маты 160Вт', path: './mat-160W'},
+        {name: 'Маты 200Вт', path: './mat-200W'},
 
       ]},
     ];

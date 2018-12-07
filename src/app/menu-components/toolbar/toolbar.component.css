@@ -12,4 +12,5 @@
     background-color: black;
 }
 .container{
+    position: fixed;
 }

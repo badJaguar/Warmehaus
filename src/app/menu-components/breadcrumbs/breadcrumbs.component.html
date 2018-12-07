@@ -1,9 +1,11 @@
 
+  <div class="breadcrumb">
     <span class="breadcrumb-item" 
       *ngFor="let item of breadcrumbList; let i = index"
       [class.active]="i===breadcrumbList.length-1">
       <a [routerLink]="item.path" *ngIf="i!==breadcrumbList.length-1">
         {{ item.name }}
       </a>
-      <span *ngIf="i===breadcrumbList.length-1">{{ item.name }}</span>
+      <span class="item" *ngIf="i===breadcrumbList.length-1">{{ item.name }}</span>
     </span>
+  </div>

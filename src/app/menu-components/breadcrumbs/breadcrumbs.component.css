@@ -1,6 +1,13 @@
-a, span, .breadcrumb-item{
-    padding: 0 14px;
+
+.breadcrumb, a{
+    background: none;
     font-weight: bold;
-    color: white;
-    text-align: start
+    text-align: start;
+    align-items: inline-start;
+    margin-block-start: 6px;
+}
+.item, a {
+    margin-top: -1px;
+}
+a{
 }
