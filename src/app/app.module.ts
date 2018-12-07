@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './menu/footer/footer.component';
-import { DefaultPageComponent } from './default-page/default-page.component';
-import { CarouselComponent } from './default-page/carousel/carousel.component';
+import { DefaultPageComponent } from './content/main-page/main-page.component';
+import { CarouselComponent } from './content/main-page/carousel/carousel.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
    MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule} from '@angular/material';
@@ -16,12 +16,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { CdkTableModule } from '@angular/cdk/table';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MaterialModule } from 'src/modules/material/material.module';
-import { WarmehausComponent } from './pages/warmehaus/warmehaus.component';
+import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
 import { ToolbarComponent } from './menu/toolbar/toolbar.component';
-import { MainPageComponent } from './pages/main-page/main-page.component';
 import { PhonesSheetComponent } from './menu/phones-sheet/phones-sheet.component';
-import { WarmingMat160WComponent } from './pages/warming-mat160-w/warming-mat160-w.component';
+import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +32,9 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     CarouselComponent,
     WarmehausComponent,
     ToolbarComponent,
-    MainPageComponent,
     PhonesSheetComponent,
     WarmingMat160WComponent,
+    ContentComponent,
     
   ],
   imports: [

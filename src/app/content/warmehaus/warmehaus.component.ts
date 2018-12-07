@@ -1,21 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
-
-export interface Tile {
-  route: any;
-  alt: string;
-  cols: number;
-  rows: number;
-  picUrl: string;
-}
+import { ITile } from 'src/models/tiles';
 
 @Component({
-  selector: 'app-default-page',
-  templateUrl: './default-page.component.html',
-  styleUrls: ['./default-page.component.css']
+  selector: 'app-warmehaus',
+  templateUrl: './warmehaus.component.html',
+  styleUrls: ['./warmehaus.component.css']
 })
-export class DefaultPageComponent implements OnInit {
-  tiles: Tile[] = [
+export class WarmehausComponent implements OnInit {
+  tiles: ITile[] = [
     {route: '#', picUrl: "../../assets/images/gridPics/Слайд.png", cols: 4, rows: 1, alt: 'Теплые полы в Минске'},
     {route: '/warming-mat-160W', picUrl: "../../assets/images/gridPics/Нагревательный_Мат_160Вт.png", cols: 2, rows: 1, alt:'Нагревательный мат 160 Вт'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Нагревательный_Мат_200Вт.png", cols: 2, rows: 1, alt: 'Нагревательный мат 200 Вт'},
