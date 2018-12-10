@@ -9,7 +9,7 @@ import { MainPageComponent } from './content/main-page/main-page.component';
 import { CarouselComponent } from './content/main-page/carousel/carousel.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
-   MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule} from '@angular/material';
+   MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule, MatRippleModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -58,7 +58,8 @@ import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.
     OverlayModule,
     MatBottomSheetModule,
     MatSortModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatRippleModule
   ],
   entryComponents: [
     PhonesSheetComponent
