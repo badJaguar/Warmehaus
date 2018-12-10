@@ -1,0 +1,67 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 17px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 40%;
+  }
+  .mat-header-cell{
+      font-display: inline;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center
+  }
+  @media only screen and (max-width: 768px) {
+    b {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    b {
+      font-size: 10px;
+    }
+  }
+  /* td:nth-of-type(2){
+    font-weight: bold;
+  } */
+  mat-paginator{
+      font-weight: bold;
+      color: black
+  }
+  mat-card-title{
+      text-align: center
+  }
+  .table{
+    width:80%;
+    margin-left: 10%
+  }
+  .cards{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .recomind{
+    text-decoration: underline;
+  }
+  h2{
+    text-align: center;
+}
+mat-divider{
+    height: 1px;
+    background-color: black
+}
+.description{
+    
+  max-width: 80%;
+  margin-block-start: 2%;
+  margin-left: 10%;
+}
+.h2small{
+  font-weight: bold;
+
+}
