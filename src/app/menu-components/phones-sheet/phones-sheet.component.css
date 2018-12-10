@@ -7,5 +7,9 @@ img {
 }
 p{
     text-align-last: center;
-    font-weight: bold
+    font-weight: bold;
+    margin-top: 10px
+}
+.divider{
+    margin-top: 15px
 }

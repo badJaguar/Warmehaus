@@ -43,6 +43,25 @@ table {
   }
   .cards{
     width: 100%;
-    margin-top: 15px;
-    min-width: 45%;
+    margin-top: 20px;
   }
+  .recomind{
+    text-decoration: underline;
+  }
+  h2{
+    text-align: center;
+}
+mat-divider{
+    height: 1px;
+    background-color: black
+}
+.description{
+    
+  max-width: 80%;
+  margin-block-start: 2%;
+  margin-left: 10%;
+}
+.h2small{
+  font-weight: bold;
+
+}

@@ -23,6 +23,7 @@ import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/wa
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
 import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.component';
+import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.
     WarmingMat160WComponent,
     WarmingMat200WComponent,
     BreadcrumbsComponent,
+    Cab11WThinComponent,
     
   ],
   imports: [

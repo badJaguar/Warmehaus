@@ -4,10 +4,17 @@
     font-weight: bold;
     text-align: start;
     align-items: inline-start;
-    margin-block-start: 6px;
+    margin-block-start: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 .item, a {
     margin-top: -1px;
 }
-a{
+a:hover {
+    color: white;
+    text-decoration: none
+}
+a:link{
+    color: red
 }

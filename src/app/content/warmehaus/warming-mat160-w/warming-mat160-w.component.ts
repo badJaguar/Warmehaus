@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
-import { ELEMENT_DATA } from 'src/models/heating-cable160W';
+import { ELEMENT_DATA_MAT_160W } from 'src/models/heating-cable160W';
 
 @Component({
   selector: 'app-warming-mat160-w',
@@ -10,7 +10,7 @@ import { ELEMENT_DATA } from 'src/models/heating-cable160W';
 
 export class WarmingMat160WComponent implements OnInit {
     displayedColumns: string[] = ['name', 'nominal', 'price'];
-    dataSource = new MatTableDataSource(ELEMENT_DATA);
+    dataSource = new MatTableDataSource(ELEMENT_DATA_MAT_160W);
   
     @ViewChild(MatSort) sort: MatSort;
     @ViewChild(MatPaginator) paginator: MatPaginator;
