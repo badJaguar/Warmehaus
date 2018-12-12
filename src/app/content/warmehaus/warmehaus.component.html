@@ -1,7 +1,22 @@
 <!--<app-carousel></app-carousel>-->
-<p>
-    Works!
-</p>
+<mat-chip-list>
+
+    <mat-chip class="chip" color="primary" selected>
+        <a routerLink="/warmehaus/mat-160W" routerLinkActive="active" style="color:white">Маты 160Вт</a>
+    </mat-chip>
+
+    <mat-chip class="chip" color="accent" selected>
+        <a routerLink="/warmehaus/mat-200W" routerLinkActive="active" style="color:white">Маты 200Вт</a>
+    </mat-chip>
+
+    <mat-chip class="chip" color="warn" selected>
+        <a routerLink="/warmehaus/cab-11W-thin" routerLinkActive="active" style="color:white">CAB 11W THIN</a>
+    </mat-chip>
+
+    <mat-chip class="chip" color="primary" selected>
+        <a routerLink="/warmehaus/cab-14W-thin" routerLinkActive="active" style="color:white">CAB 14W THIN</a>
+    </mat-chip>
+
+</mat-chip-list>
 
 <router-outlet></router-outlet>
-<mat-divider></mat-divider>

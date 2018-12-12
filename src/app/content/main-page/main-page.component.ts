@@ -14,7 +14,7 @@ export class MainPageComponent implements OnInit {
     {route: '/warmehaus/mat-200W', picUrl: "../../assets/images/gridPics/Нагревательный_Мат_200Вт.png", cols: 2, rows: 1, alt: 'Нагревательный мат 200 Вт'},
     {route: '/warmehaus/cab-11W-thin', picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_слой_11Вт.png", cols: 2, rows: 1, alt: 'Нагревательный Кабель в слой плиточного клея 11Вт'},
 
-    {route: 'url', picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_слой_14Вт.png", cols: 2, rows: 1, alt: 'Нагревательный Кабель в слой плиточного клея 14Вт'},
+    {route: '/warmehaus/cab-14W-thin', picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_слой_14Вт.png", cols: 2, rows: 1, alt: 'Нагревательный Кабель в слой плиточного клея 14Вт'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_стяжку_20Вт.png", cols: 2, rows: 1, alt: 'Нагревательный Кабель в стяжку 20Вт'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Инфракрасная_Плёнка.png", cols: 2, rows: 1, alt: 'Инфракрасная пленка'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Системы_антиобледенения.png", cols: 2, rows: 1, alt: 'Системы антиобледенения'},

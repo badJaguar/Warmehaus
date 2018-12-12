@@ -9,7 +9,8 @@ import { MainPageComponent } from './content/main-page/main-page.component';
 import { CarouselComponent } from './content/main-page/carousel/carousel.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
-   MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule, MatRippleModule} from '@angular/material';
+   MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule,
+   MatRippleModule, MatChipsModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -24,6 +25,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
 import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.component';
 import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
+import { ContentComponent } from './content/content/content.component';
+import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,8 @@ import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-th
     WarmingMat200WComponent,
     BreadcrumbsComponent,
     Cab11WThinComponent,
+    ContentComponent,
+    Cab14WThinComponent,
     
   ],
   imports: [
@@ -61,7 +66,8 @@ import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-th
     MatBottomSheetModule,
     MatSortModule,
     FlexLayoutModule,
-    MatRippleModule
+    MatRippleModule,
+    MatChipsModule
   ],
   entryComponents: [
     PhonesSheetComponent

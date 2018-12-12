@@ -13,7 +13,8 @@ export class MenuService {
 
         {name: 'Маты 160Вт', path: './mat-160W'},
         {name: 'Маты 200Вт', path: './mat-200W'},
-        {name: 'CAB 11W THIN', path: './cab-11W-thin'},
+        {name: 'Двужильный CAB 11W THIN', path: './cab-11W-thin'},
+        {name: 'Двужильный CAB 14W THIN', path: './cab-14W-thin'},
 
       ]},
     ];

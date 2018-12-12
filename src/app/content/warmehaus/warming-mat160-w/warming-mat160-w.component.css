@@ -63,5 +63,7 @@ mat-divider{
 }
 .h2small{
   font-weight: bold;
-
+}
+.mat-header-row{
+  background-color: rgb(233, 232, 232);
 }

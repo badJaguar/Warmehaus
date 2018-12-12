@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ITile } from 'src/models/tiles';
+import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-warmehaus',
@@ -7,6 +8,8 @@ import { ITile } from 'src/models/tiles';
   styleUrls: ['./warmehaus.component.css']
 })
 export class WarmehausComponent implements OnInit {
+  list: Array<any> = [];
+
   tiles: ITile[] = [
     {route: '/warmehaus/mat-160W', picUrl: "../../assets/images/gridPics/Нагревательный_Мат_160Вт.png", cols: 2, rows: 1, alt:'Нагревательный мат 160 Вт'},
     {route: '/warmehaus/mat-200W', picUrl: "../../assets/images/gridPics/Нагревательный_Мат_200Вт.png", cols: 2, rows: 1, alt: 'Нагревательный мат 200 Вт'},
@@ -18,10 +21,11 @@ export class WarmehausComponent implements OnInit {
     {route: 'url', picUrl: "../../assets/images/gridPics/Терморегуляторы.png", cols: 2, rows: 1, alt: 'Терморегуляторы'},
   ];
 
-  constructor() { }
+  constructor(private menuService: MenuService) { }
 
   ngOnInit() {
-    
+    this.list = this.menuService
+      .getMenu()[1].children;
   }
 
 }

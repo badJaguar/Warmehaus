@@ -57,11 +57,14 @@ mat-divider{
 }
 .description{
     
-  max-width: 80%;
+  min-width: 80%;
   margin-block-start: 2%;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 .h2small{
   font-weight: bold;
 
+}
+.mat-header-row{
+  background-color: rgb(233, 232, 232);
 }
