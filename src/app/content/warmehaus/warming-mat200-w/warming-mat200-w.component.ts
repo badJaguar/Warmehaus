@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource, MatSort, MatPaginator } from '@angular/material';
 import { ELEMENT_DATA_MAT_200W } from 'src/models/heating-cable200W';
 
@@ -22,5 +22,4 @@ export class WarmingMat200WComponent implements OnInit {
     applyFilter(filterValue: string) {
       this.dataSource.filter = filterValue.trim().toLowerCase();
     }
-    encapsulation: ViewEncapsulation.None
 }
