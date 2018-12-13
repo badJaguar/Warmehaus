@@ -10,7 +10,7 @@ import { CarouselComponent } from './content/main-page/carousel/carousel.compone
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
    MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule,
-   MatRippleModule, MatChipsModule} from '@angular/material';
+   MatRippleModule, MatChipsModule, MatTabsModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -67,7 +67,8 @@ import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-th
     MatSortModule,
     FlexLayoutModule,
     MatRippleModule,
-    MatChipsModule
+    MatChipsModule,
+    MatTabsModule
   ],
   entryComponents: [
     PhonesSheetComponent

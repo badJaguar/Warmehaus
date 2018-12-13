@@ -68,3 +68,25 @@ mat-divider{
 .mat-header-row{
   background-color: rgb(233, 232, 232);
 }
+mat-tab-group{
+  max-width: 1200px;
+  margin-block-start: 2%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.content{
+  margin: 30px
+}
+::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+  color:black;
+  background-color:rgb(233, 232, 232);
+font-weight: bold
+  }
+  
+  ::ng-deep .mat-ink-bar {
+  background-color: var(--primary-color,red) !important;
+  }
+  
+ul{
+  max-width: 480px;
+}
