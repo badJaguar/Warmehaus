@@ -5,7 +5,7 @@
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
   </mat-form-field>
 
-  <div class="mat-elevation-z8">
+  <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource1" matSort>
 
       <!-- ID Column -->
@@ -56,6 +56,7 @@
           </li>
         </ul>
         <mat-divider></mat-divider>
+        <div class="vertTab"></div>
         <p>
           Разработан для основного отопления любых помещений, в т.ч. жилых, включая БАНИ, ЛОДЖИИ, ВЕРАНДЫ и т.д.
         </p>
@@ -129,13 +130,13 @@
           *- монтаж кабеля в слой плиточного клея не более 2см.
         </p>
         <p>
-          Гарантия 20лет.
+          <b>Гарантия 20лет.</b> 
         </p>
         <p>
           Продукция сертифицирована в ТС. ЕАС сертификат № TC RU C-DE.АИ30.А.00674
         </p>
         <p>
-          Площадь комфортного обогрева в зависимости от типа помещения здесь:
+         <i>Площадь комфортного обогрева в зависимости от типа помещения здесь:</i> 
         </p>
         <p>
           <img src="../../../../assets/images/WarmehausTABs800.jpg" alt="Таблица укладки теплых полов">

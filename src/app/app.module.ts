@@ -27,6 +27,7 @@ import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.
 import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
 import { ContentComponent } from './content/content/content.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
+import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-th
     Cab11WThinComponent,
     ContentComponent,
     Cab14WThinComponent,
+    Cab20WUvComponent,
     
   ],
   imports: [

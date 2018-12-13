@@ -5,7 +5,7 @@
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
   </mat-form-field>
 
-  <div class="mat-elevation-z8">
+  <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource" matSort>
 
       <!-- ID Column -->
@@ -46,6 +46,8 @@
   <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z8">
     <mat-tab class="tab" label="Описание">
       <h2>Описание</h2>
+      <mat-divider></mat-divider>
+
       <div class="content">
         <ul>
           <li>
@@ -61,6 +63,7 @@
           </li>
         </ul>
         <mat-divider></mat-divider>
+        <div class="vertTab"></div>
         <p>
           WÄRMEHAUS® MAT 200W/m<sup><small>2</small></sup> Германия - армированный экранированный двужильный
           нагревательный

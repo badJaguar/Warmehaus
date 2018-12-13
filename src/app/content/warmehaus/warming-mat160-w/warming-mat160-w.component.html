@@ -5,7 +5,7 @@
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
   </mat-form-field>
 
-  <div class="mat-elevation-z8">
+  <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource" matSort>
 
       <!-- ID Column -->
@@ -44,8 +44,10 @@
 
   <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z8">
     <mat-tab class="tab" label="Описание">
-      <div class="content">
         <h2>Описание</h2>
+      <mat-divider></mat-divider>
+      <div class="content">
+
         <ul>
           <li>
             Тонкий двужильный нагревательный мат на сетке, с шагом кабеля 7см и диаметром 3мм с двойной изоляцией и
@@ -60,6 +62,7 @@
           </li>
         </ul>
         <mat-divider></mat-divider>
+        <div class="vertTab"></div>
         <p>
           Мат изготовлен на основе резистивного нагревательного кабеля.
           WÄRMEHAUS® MAT 160W/m2 - тонкий двужильный нагревательный мат на сетке, с шагом кабеля 7см и диаметром 3мм.

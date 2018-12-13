@@ -1,7 +1,6 @@
 table {
     width: 100%;
   }
-  
   .mat-form-field {
     font-size: 17px;
     width: 100%;
@@ -38,8 +37,9 @@ table {
       text-align: center
   }
   .table{
-    width:80%;
-    margin-left: 10%
+    max-width:1600px;
+    margin-left: auto;
+    margin-right: auto
   }
   .cards{
     width: 100%;
@@ -89,4 +89,7 @@ font-weight: bold
   
 ul{
   max-width: 480px;
+}
+.vertTab{
+  padding-block-start: 15px
 }
