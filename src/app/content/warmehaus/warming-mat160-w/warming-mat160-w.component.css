@@ -1,7 +1,6 @@
 table {
   width: 100%;
 }
-
 .mat-form-field {
   font-size: 17px;
   width: 100%;
@@ -37,8 +36,8 @@ mat-paginator{
 mat-card-title{
     text-align: center
 }
-.table{
-  max-width:1600px;
+.table, .filter{
+  max-width:1280px;
   margin-left: auto;
   margin-right: auto
 }
@@ -89,8 +88,16 @@ background-color: var(--primary-color,red) !important;
 }
 
 ul{
-max-width: 480px;
+max-width: 640px;
 }
 .vertTab{
 padding-block-start: 15px
+}
+.upon ul{
+margin-left: 5%;
+}
+.uponTable{
+max-width: 1500px;
+margin-left: auto;
+margin-left: auto
 }

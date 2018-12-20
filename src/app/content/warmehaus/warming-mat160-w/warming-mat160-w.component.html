@@ -1,9 +1,32 @@
 <mat-card class="mat-elevation-z8">
   <mat-card-title>Нагревательный мат 160 Вт.</mat-card-title>
 
-  <mat-form-field>
-    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
-  </mat-form-field>
+  <mat-divider></mat-divider>
+  <div class="uponTable">
+    <img src="../../../../assets/images/it2.jpg" alt="Теплый пол кабель в разрезе" align="left" width="320" height="320"
+      hspace="25">
+    <div class="container upon">
+      <ul>
+        <li>
+          Тонкий двужильный нагревательный мат на сетке, с шагом кабеля 7см и диаметром 3мм с двойной изоляцией и
+          холодным
+          соединительным проводом длиной 3.5м.
+        </li>
+        <li>
+          В комплект поставки входит - упаковка, инструкция по установке и эксплуатации - включительно на русском
+          языке,
+          гарантийный талон, гофротрубка для установки термодатчика длинной 2м, пластиковая заглушка для гофротрубки,
+          подрозетник для установки терморегулятора.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="filter">
+    <mat-form-field>
+      <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
+    </mat-form-field>
+  </div>
 
   <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource" matSort>
@@ -44,24 +67,7 @@
 
   <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z8">
     <mat-tab class="tab" label="Описание">
-        <h2>Описание</h2>
-      <mat-divider></mat-divider>
       <div class="content">
-
-        <ul>
-          <li>
-            Тонкий двужильный нагревательный мат на сетке, с шагом кабеля 7см и диаметром 3мм с двойной изоляцией и
-            холодным
-            соединительным проводом длиной 3.5м.
-          </li>
-          <li>
-            В комплект поставки входит - упаковка, инструкция по установке и эксплуатации - включительно на русском
-            языке,
-            гарантийный талон, гофротрубка для установки термодатчика длинной 2м, пластиковая заглушка для гофротрубки,
-            подрозетник для установки терморегулятора.
-          </li>
-        </ul>
-        <mat-divider></mat-divider>
         <div class="vertTab"></div>
         <p>
           Мат изготовлен на основе резистивного нагревательного кабеля.

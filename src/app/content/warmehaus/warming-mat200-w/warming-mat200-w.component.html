@@ -1,9 +1,32 @@
 <mat-card class="mat-elevation-z8">
   <mat-card-title>Нагревательный мат 200 Вт.</mat-card-title>
+  
+  <mat-divider></mat-divider>
+  <div class="uponTable">
+    <img src="../../../../assets/images/ТЕПЛЫЙ ПОЛ WARMEHAUS MAT 200W 4 s800 4.jpg" alt="Теплый пол кабель в разрезе"
+      align="left" width="320" height="320" hspace="25">
+    <div class="container upon">
+      <ul>
+        <li>
+          WÄRMEHAUS® MAT 200W/m<sup><small>2</small></sup> Германия - готовая к применению нагревательная система
+          ТЕПЛЫЙ
+          ПОЛ повышенной мощности под керамическую плитку, ламинат, линолеум.
+        </li>
+        <li>
+          Применяется для внутренней установки.
+        </li>
+        <li>
+          Рекомендован в : ВАННЫЕ КОМНАТЫ, САНУЗЛЫ, УТЕПЛЕННЫЕ ЛОДЖИИ И Т.Д. ; ОСНОВНОЙ ОБОГРЕВ * (См. Таб.№1)
+        </li>
+      </ul>
+    </div>
+  </div>
 
-  <mat-form-field>
-    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
-  </mat-form-field>
+  <div class="filter">
+    <mat-form-field>
+      <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
+    </mat-form-field>
+  </div>
 
   <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource" matSort>
@@ -45,24 +68,9 @@
 
   <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z8">
     <mat-tab class="tab" label="Описание">
-      <h2>Описание</h2>
       <mat-divider></mat-divider>
 
       <div class="content">
-        <ul>
-          <li>
-            WÄRMEHAUS® MAT 200W/m<sup><small>2</small></sup> Германия - готовая к применению нагревательная система
-            ТЕПЛЫЙ
-            ПОЛ повышенной мощности под керамическую плитку, ламинат, линолеум.
-          </li>
-          <li>
-            Применяется для внутренней установки.
-          </li>
-          <li>
-            Рекомендован в : ВАННЫЕ КОМНАТЫ, САНУЗЛЫ, УТЕПЛЕННЫЕ ЛОДЖИИ И Т.Д. ; ОСНОВНОЙ ОБОГРЕВ * (См. Таб.№1)
-          </li>
-        </ul>
-        <mat-divider></mat-divider>
         <div class="vertTab"></div>
         <p>
           WÄRMEHAUS® MAT 200W/m<sup><small>2</small></sup> Германия - армированный экранированный двужильный
