@@ -7,6 +7,7 @@ import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/wa
 import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
+import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 
 const routes: Routes = [
   { path: 'home', component: MainPageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'cab-11W-thin', component: Cab11WThinComponent},
   {path: 'cab-14W-thin', component: Cab14WThinComponent},
   {path: 'cab-20W-uv-protection', component: Cab20WUvComponent},
+  {path: 'termostats', component: TermostatComponent},
     ]},
   { path: '', redirectTo: 'home', pathMatch: 'full'},
 ];

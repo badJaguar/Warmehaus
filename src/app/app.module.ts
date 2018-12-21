@@ -28,6 +28,8 @@ import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-th
 import { ContentComponent } from './content/content/content.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
+import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
+import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.com
     ContentComponent,
     Cab14WThinComponent,
     Cab20WUvComponent,
+    TermostatComponent,
+    TouchscreenComponent,
     
   ],
   imports: [

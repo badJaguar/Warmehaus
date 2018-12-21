@@ -18,7 +18,7 @@ export class MainPageComponent implements OnInit {
     {route: '/warmehaus/cab-20W-uv-protection', picUrl: "../../assets/images/gridPics/Нагревательный_Кабель_в_стяжку_20Вт.png", cols: 2, rows: 1, alt: 'Нагревательный Кабель в стяжку 20Вт'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Инфракрасная_Плёнка.png", cols: 2, rows: 1, alt: 'Инфракрасная пленка'},
     {route: 'url', picUrl: "../../assets/images/gridPics/Системы_антиобледенения.png", cols: 2, rows: 1, alt: 'Системы антиобледенения'},
-    {route: 'url', picUrl: "../../assets/images/gridPics/Терморегуляторы.png", cols: 2, rows: 1, alt: 'Терморегуляторы'},
+    {route: '/warmehaus/termostats', picUrl: "../../assets/images/gridPics/Терморегуляторы.png", cols: 2, rows: 1, alt: 'Терморегуляторы'},
   ];
   constructor() { }
 

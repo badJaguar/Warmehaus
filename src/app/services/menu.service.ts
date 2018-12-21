@@ -16,6 +16,7 @@ export class MenuService {
         {name: 'Двужильный CAB 11W THIN', path: './cab-11W-thin'},
         {name: 'Двужильный CAB 14W THIN', path: './cab-14W-thin'},
         {name: 'Двужильный CAB 20W UV', path: './cab-20W-uv-protection'},
+        {name: 'Терморегуляторы', path: './termostats'},
 
       ]},
     ];
