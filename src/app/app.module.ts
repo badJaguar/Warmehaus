@@ -31,6 +31,7 @@ import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.com
 import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component';
 import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { SafeHtmlPipe } from './safe-html';
+import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
 
 @NgModule({
   declarations: [
@@ -76,6 +77,7 @@ import { SafeHtmlPipe } from './safe-html';
     MatRippleModule,
     MatChipsModule,
     MatTabsModule,
+    ImageViewerModule
   ],
   entryComponents: [
     PhonesSheetComponent,

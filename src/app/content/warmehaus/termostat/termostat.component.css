@@ -8,7 +8,7 @@
   }
   
   tr.example-element-row:not(.example-expanded-row):active {
-    background: #efefef;
+    background: #f7f6e3;
   }
   
   .example-element-row td {
@@ -23,24 +23,10 @@
   .examle-element-display{
     height: 0;
   }
-  
-  /* .example-element-diagram {
-    min-width: 80px;
-    border: 1px solid black;
-    padding: 8px;
-    font-weight: lighter;
-    margin: 8px 0;
-    height: 104px;
-  } */
-  
   .example-element-symbol {
     font-weight: bold;
     font-size: 40px;
     line-height: normal;
-  }
-  
-  .example-element-description {
-    padding: 16px;
   }
   
   .example-element-description-attribution {
@@ -101,7 +87,6 @@
     background-color: black
   }
   .description{
-    
   min-width: 80%;
   margin-block-start: 2%;
   /* margin-left: 10%; */
@@ -141,8 +126,9 @@
   .upon ul{
   margin-left: 5%;
   }
-  .uponTable{
-  max-width: 1500px;
-  margin-left: auto;
-  margin-left: auto
+  ngx-imageviewer{
+    margin-right: 50%;
   }
+  /* .expander{
+    min-width: 800px
+  } */
