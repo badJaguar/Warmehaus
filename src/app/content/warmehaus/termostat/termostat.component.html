@@ -1,5 +1,5 @@
 <mat-card class="mat-elevation-z8">
-  <mat-card-title>Кабель Двужильный CAB 20W UV PROTECTION</mat-card-title>
+  <mat-card-title>Терморегуляторы</mat-card-title>
   <mat-divider></mat-divider>
   <div class="filter">
     <mat-form-field>
@@ -43,7 +43,7 @@
               <div class="example-element-name"> <img src={{element.picPath}} alt={{element.picAlt}} height="360" width="360" > </div>
             </div>
 
-            <div class="example-element-description" [innerHTML]="element.description">
+            <div class="example-element-description" [innerHTML]="element.description | safeHtml">
               
               <!-- {{element.description}} -->
             </div>

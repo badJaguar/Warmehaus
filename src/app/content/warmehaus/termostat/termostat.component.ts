@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import { ELEMENT_DATA_TERMOSTATS, Termosrat } from 'src/models/termostat';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';

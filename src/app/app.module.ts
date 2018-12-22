@@ -28,8 +28,9 @@ import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-th
 import { ContentComponent } from './content/content/content.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
-import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component';
+import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
+import { SafeHtmlPipe } from './safe-html';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,7 @@ import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions
     Cab20WUvComponent,
     TermostatComponent,
     TouchscreenComponent,
-    
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
@@ -74,12 +75,12 @@ import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions
     FlexLayoutModule,
     MatRippleModule,
     MatChipsModule,
-    MatTabsModule
+    MatTabsModule,
   ],
   entryComponents: [
-    PhonesSheetComponent
+    PhonesSheetComponent,
   ],
-  providers: [],
+  providers: [SafeHtmlPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
