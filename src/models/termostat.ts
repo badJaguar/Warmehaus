@@ -17,32 +17,8 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     price: 247.00,
     description: `
     <div>
+<hr>
     <h4 align="center">
-    Цветовая палитра
-  </h4>
-
-  <p align="center">
-    <i>Чёрный / Слоновая кость / Белый</i>
-  </p>
-
-  <style>
-  img {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  </style>
-  
-  <div id="container" align="center">
-  
-  <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg" alt="Терморегулятор теплый пол сенсорный черный">
-
-  <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg" alt="Терморегулятор теплый пол сенсорный слоновая кость">
-
-  <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg" alt="Терморегулятор теплый пол сенсорный белый">
-
-  </div>
-
-  <h4 align="center">
     Описание
   </h4>
   <div class="container text">
@@ -122,10 +98,38 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     </li>
   </ul>
   </div>
+
+    <h4 align="center">
+    Цветовая палитра
+  </h4>
+
+  <p align="center">
+    <i>Чёрный / Слоновая кость / Белый</i>
+  </p>
+
+  <style>
+  img {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  </style>
+  
+  <div id="container" align="center">
+  
+  <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg" alt="Терморегулятор теплый пол сенсорный черный">
+
+  <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg" alt="Терморегулятор теплый пол сенсорный слоновая кость">
+
+  <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg" alt="Терморегулятор теплый пол сенсорный белый">
+
+  <img src="../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg" alt="Терморегулятор теплый пол сенсорный белый">
+
+  </div>
+
   <hr>
   </div>
     `,
-    picPath: "../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg", 
+    picPath: "../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg", 
     picAlt: "ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN"
   },
   { 

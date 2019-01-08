@@ -129,6 +129,9 @@
   ngx-imageviewer{
     margin-right: 50%;
   }
+  .examle-element-diagram{
+    background-color: white
+  }
   /* .expander{
     min-width: 800px
   } */
