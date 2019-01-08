@@ -7,7 +7,7 @@ export const MY_IMAGEVIEWER_CONFIG: any = {
   height: 320, // component default height
   bgStyle: '#ECEFF1', // component background style
   scaleStep: 0.1, // zoom scale step (using the zoom in/out buttons)
-  rotateStepper: false, // touch rotate should rotate only 90 to 90 degrees
+  rotateStepper: true, // touch rotate should rotate only 90 to 90 degrees
   loadingMessage: 'Loading...',
   buttonStyle: {
     iconFontFamily: 'Material Icons', // font used to render the button icons
@@ -35,7 +35,7 @@ export const MY_IMAGEVIEWER_CONFIG: any = {
   },
 
   // shorter button configuration style
-  nextPageButton: createButtonConfig('navigate_next', 'Next page', 0, false),
+  nextPageButton: createButtonConfig('navigate_next', 'Next page', 0),
   beforePageButton: createButtonConfig('navigate_before', 'Previous page', 1),
   zoomInButton: createButtonConfig('zoom_in', 'Zoom in', 1),
   rotateLeftButton: createButtonConfig('rotate_left', 'Rotate left', 2, false),

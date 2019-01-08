@@ -1,6 +1,6 @@
 import { TouchscreenComponent } from "src/app/content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component";
 
-export interface Termosrat {
+export interface Termostat {
   id: number;
   name: string;
   nominal: string;
@@ -9,7 +9,7 @@ export interface Termosrat {
   picPath: string;
   picAlt: string;
 }
-export var ELEMENT_DATA_TERMOSTATS: Termosrat[] = [
+export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
   {
     id: 75,
     name: 'Терморегулятор WÄRMEHAUS TouchScreen',
@@ -17,14 +17,42 @@ export var ELEMENT_DATA_TERMOSTATS: Termosrat[] = [
     price: 247.00,
     description: `
     <div>
+    <h4 align="center">
+    Цветовая палитра
+  </h4>
+
+  <p align="center">
+    <i>Чёрный / Слоновая кость / Белый</i>
+  </p>
+
+  <style>
+  img {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  </style>
+  
+  <div id="container" align="center">
+  
+  <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg" alt="Терморегулятор теплый пол сенсорный черный">
+
+  <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg" alt="Терморегулятор теплый пол сенсорный слоновая кость">
+
+  <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg" alt="Терморегулятор теплый пол сенсорный белый">
+
+  </div>
+
   <h4 align="center">
     Описание
   </h4>
   <div class="container text">
+
   <style>
-  
-  
+  li{
+    text-align: left;
+  }
   </style>
+
   <ul>
     <li>
       Программируемый <b>Сенсорный 24/7</b> терморегулятор для систем "Теплый пол".
@@ -97,9 +125,16 @@ export var ELEMENT_DATA_TERMOSTATS: Termosrat[] = [
   <hr>
   </div>
     `,
-    picPath: "../../assets/images/WH_TS_front_s700.jpg", picAlt: "ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN"
+    picPath: "../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg", 
+    picAlt: "ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN"
   },
-  { id: 76, name: 'Терморегулятор WÄRMEHAUS WH100', nominal: '13,7м2 - 274W', price: 181.00, description: "", picPath: "", picAlt: "Some Alt" },
+  { 
+    id: 76, 
+    name: 'Терморегулятор WÄRMEHAUS WH100', 
+    nominal: 'Аналоговый', 
+    price: 114.00, description: "",
+    picPath: "", 
+    picAlt: "Some Alt" },
   { id: 77, name: 'Терморегулятор WÄRMEHAUS WH200', nominal: '17,2м2 - 344W', price: 209.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 78, name: 'Терморегулятор WÄRMEHAUS WH400 PRO', nominal: '22,5м2 - 450W', price: 238.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 79, name: 'Терморегулятор WÄRMEHAUS WH500 PRO', nominal: '27,0м2 - 540W', price: 266.00, description: "", picPath: "", picAlt: "Some Alt" },
