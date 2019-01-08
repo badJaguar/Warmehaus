@@ -5,7 +5,7 @@ import { createButtonConfig } from "@hallysonh/ngx-imageviewer";
 export const MY_IMAGEVIEWER_CONFIG: any = {
   width: 320, // component default width
   height: 320, // component default height
-  bgStyle: '#ECEFF1', // component background style
+  bgStyle: '#FFFFFF', // component background style
   scaleStep: 0.1, // zoom scale step (using the zoom in/out buttons)
   rotateStepper: true, // touch rotate should rotate only 90 to 90 degrees
   loadingMessage: 'Loading...',
