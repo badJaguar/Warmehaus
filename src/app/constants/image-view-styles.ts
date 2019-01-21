@@ -24,8 +24,8 @@ export const MY_IMAGEVIEWER_CONFIG: any = {
     bgAlpha: 1, // tooltip background transparence
     textStyle: '#ffffff', // tooltip's text style
     textAlpha: 0.9, // tooltip's text transparence
-    padding: 15, // tooltip padding
-    radius: 20 // tooltip border radius
+    padding: 20, // tooltip padding
+    radius: 20, // tooltip border radius 
   },
   zoomOutButton: { // zoomOut button config
     icon: 'zoom_out', // icon text

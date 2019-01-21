@@ -84,7 +84,7 @@
   }
   mat-divider{
     height: 1px;
-    background-color: black
+    background-color: black;
   }
   .description{
   min-width: 80%;
@@ -121,7 +121,7 @@
   max-width: 640px;
   }
   .vertTab{
-  padding-block-start: 15px
+  padding-block-start: 10px
   }
   .upon ul{
   margin-left: 5%;
@@ -132,3 +132,15 @@
   /* .expander{
     min-width: 800px
   } */
+  .price-info{
+    padding-left: 20px;
+    padding-bottom: 15px
+  }
+  .video{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center
+  }
