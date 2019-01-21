@@ -27,7 +27,6 @@
       <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Фильтр">
     </mat-form-field>
   </div>
-
   <div class="mat-elevation-z8 table">
     <table mat-table [dataSource]="dataSource1" matSort>
 
@@ -63,6 +62,7 @@
     </table>
 
     <mat-paginator [pageSizeOptions]="[5, 10, 15]"></mat-paginator>
+<p class="price-info"><b>Цены носят информационный характер.</b></p>
   </div>
 
 

@@ -93,7 +93,7 @@ max-width: 640px;
 .vertTab{
 padding-block-start: 15px
 }
-.upon ul{
+.upon ul, li{
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,5 +106,10 @@ margin-left: auto
 max-width: 320px;
 max-height: 320px;
 margin-left: auto;
-margin-right: auto
+margin-right: auto;
+padding-right: 20px
+}
+.price-info{
+  padding-left: 20px;
+  padding-bottom: 15px
 }
