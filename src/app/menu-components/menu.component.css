@@ -1,6 +1,6 @@
 .navbar{
     background-color: #f9c104;
-    width: 100%
+    max-width: 100%;
 }
 .navbar-item{
     margin-right: 5px;

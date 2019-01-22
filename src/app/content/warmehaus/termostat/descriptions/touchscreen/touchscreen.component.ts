@@ -5,7 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './touchscreen.component.html',
   styleUrls: ['./touchscreen.component.css']
 })
-export class TouchscreenComponent {
+export class TouchscreenComponent  implements OnInit{
+  ngOnInit() {}
 
   constructor() { }
 

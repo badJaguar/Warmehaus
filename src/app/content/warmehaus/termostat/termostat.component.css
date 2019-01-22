@@ -32,6 +32,7 @@
   .example-element-description-attribution {
     opacity: 0.5;
   }
+
   .mat-form-field {
     font-size: 17px;
     width: 100%;
@@ -44,7 +45,7 @@
       font-display: inline;
       font-weight: bold;
       font-size: 14px;
-      text-align: center
+      text-align: center;
   }
   @media only screen and (max-width: 768px) {
     b {
@@ -52,7 +53,7 @@
     }
   }
   
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 300px) {
     b {
       font-size: 10px;
     }
@@ -70,12 +71,9 @@
   .table, .filter{
     max-width:1280px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
-  .cards{
-    width: 100%;
-    margin-top: 20px;
-  }
+
   .recomind{
     text-decoration: underline;
   }
@@ -86,11 +84,7 @@
     height: 1px;
     background-color: black;
   }
-  .description{
-  min-width: 80%;
-  margin-block-start: 2%;
-  /* margin-left: 10%; */
-  }
+  
   .h2small{
   font-weight: bold;
   
@@ -136,6 +130,7 @@
     padding-left: 20px;
     padding-bottom: 15px
   }
+  
   .video{
     margin-left: auto;
     margin-right: auto;

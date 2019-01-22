@@ -847,7 +847,7 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     name: 'Терморегулятор WÄRMEHAUS WH600 PRO', 
     nominal: 'Сенсорный', 
     price: 228.00, 
-    description: `
+    description: `<body>
     <div>
     <hr>
         <h4 align="center">
@@ -1001,12 +1001,16 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
       </div>
     
       <hr>
-      </div>
+      </div></body>
     `, 
     picPath: "../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg", 
     picAlt: "Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками" 
   },
-  { id: 81, name: 'Терморегулятор WÄRMEHAUS WH1000 PRO', nominal: '39,0м2 - 780W', price: 342.00, description: "", picPath: "", picAlt: "Some Alt" },
+  { id: 81, name: 'Терморегулятор WÄRMEHAUS WH1000 PRO', nominal: 'Exp', price: 342.00, 
+  description: `<body>
+  
+</body>`,
+  picPath: "", picAlt: "Some Alt" },
   { id: 82, name: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL', nominal: '44,0м2 - 880W', price: 380.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 83, name: 'Терморегулятор WÄRMEHAUS WH800 BASIC', nominal: '53,5м2 - 1070W', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 84, name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC', nominal: '64,0м2 - 1280W', price: 494.00, description: "", picPath: "", picAlt: "Some Alt" },
