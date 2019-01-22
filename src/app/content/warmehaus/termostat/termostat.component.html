@@ -49,7 +49,7 @@
 
                 <!-- https://www.npmjs.com/package/@hallysonh/ngx-imageviewer -->
                 <ngx-imageviewer [src]=element.picPath></ngx-imageviewer>
-                <div class="example-element-description" [innerHTML]="element.description"></div>
+                <div class="example-element-description" [innerHTML]="element.description | safeHtml"></div>
               </div>
             </div>
           </td>

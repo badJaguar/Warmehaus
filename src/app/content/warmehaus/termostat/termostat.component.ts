@@ -1,9 +1,10 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import { ELEMENT_DATA_TERMOSTATS, Termostat as Termostat } from 'src/models/termostat';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import {IMAGEVIEWER_CONFIG } from '@hallysonh/ngx-imageviewer';
 import { MY_IMAGEVIEWER_CONFIG } from 'src/app/constants/image-view-styles';
+import { TouchscreenComponent } from './descriptions/touchscreen/touchscreen.component';
 
 @Component({
   selector: 'app-termostat',
@@ -25,8 +26,6 @@ import { MY_IMAGEVIEWER_CONFIG } from 'src/app/constants/image-view-styles';
 })
 
 export class TermostatComponent implements OnInit {
-
-  
 
   columnsToDisplay = ['name', 'nominal', 'price'];
   headerNames : string[] = ['Тип','м2/Вт','Цена'];
