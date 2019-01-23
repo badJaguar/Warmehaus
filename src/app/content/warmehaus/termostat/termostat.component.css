@@ -13,12 +13,14 @@
   
   .example-element-row td {
     border-bottom-width: 0;
-    height: 5%;
+    height: 3%;
+    cursor: pointer
   }
   
   .example-element-detail {
     overflow: hidden;
     display: flex;
+
   }
   .examle-element-display{
     height: 0;
@@ -46,6 +48,7 @@
       font-weight: bold;
       font-size: 14px;
       text-align: center;
+      cursor: pointer
   }
   @media only screen and (max-width: 768px) {
     b {

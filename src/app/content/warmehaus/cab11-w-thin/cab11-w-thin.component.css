@@ -13,6 +13,7 @@ td, th {
     font-display: inline;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
     text-align: center
 }
 @media only screen and (max-width: 768px) {

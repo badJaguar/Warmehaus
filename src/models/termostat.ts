@@ -1285,9 +1285,156 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     picPath: "../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg",
     picAlt: "Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу"
   },
-  { id: 83, name: 'Терморегулятор WÄRMEHAUS WH800 BASIC', nominal: '53,5м2 - 1070W', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
-  { id: 84, name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC', nominal: '64,0м2 - 1280W', price: 494.00, description: "", picPath: "", picAlt: "Some Alt" },
-  { id: 85, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '79,0м2 - 1580W', price: 570.00, description: "", picPath: "", picAlt: "Some Alt" },
+  // Терморегулятор WÄRMEHAUS WH300 WI-FI TODO: To fill
+  { id: 83, name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI', nominal: 'WI-FI', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
+  // 
+  {
+    id: 84,
+    name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
+    <div>
+    <hr>
+        <h4 align="center">
+        Описание
+      </h4>
+      <div class="container text">
+      <i>Терморегулятор WÄRMEHAUS WH800 Используется для постоянного поддержания комфортного теплого пола в течении суток. Управление в одно движение.</i>
+    
+      <style>
+      li{
+        text-align: left;
+      }
+      </style>
+      <ul>
+        <li>
+        Непрограммируемый терморегулятор для систем  "Теплый пол".
+        </li>
+        <li>
+        Включение/выключение и установка температуры <b>в одно движение</b>.
+        </li>
+        <li>
+        Ручная установка температуры.
+        </li>
+        <li>
+        Индикация нагрева.
+        </li>
+        <li>
+        Двухцветный LED индикатор состояния : Зеленый - режим ожидания, Красный - режим нагрева.
+        </li>
+        <li>
+        Тонкая установочная часть, всего 24мм.
+        </li>
+        <li>
+        Пределы регулирования...   +10...+40<sup><small>o</small></sup>С
+        </li>
+        <li>
+        Самодиагностика прибора.
+        </li>
+        <li>
+        ТТермозащита. Встроенная защита прибора от перегрева.
+        </li>
+        <li>
+        Нагрузка до 16А.
+        </li>
+        <li>
+        Прибор совместим с рамками <b>Schneider серия Unica, Simon серия 27 Neos</b>.
+        </li>
+        <li>
+        Все приборы WÄRMEHAUS PREMIUM обеспеченны полноценной трехлетней гарантией, инструкцией на русском языке и сервисной поддержкой.
+        </li>
+        <li>
+        Гарантия - 3 года.
+        </li>
+      </ul>
+
+      <hr>
+      <h4 align="center">
+        Технические данные
+      </h4>
+      <ul>
+          <li>
+          Пределы регулирования...   +10...+40<sup><small>o</small></sup>С
+          </li>
+          <li>
+          Точность измерения температуры...   0,5<sup><small>o</small>С
+          </li>
+          <li>
+          Точность выставляемой температуры...   1<sup><small>o</small>С
+          </li>
+          <li>
+          Максимальная мощность нагрузки...   3600W
+          </li>
+          <li>
+          Номинальная <b>долговременная мощность нагрузки*</b>...   3000W
+          </li>
+          <li>
+          Максимальный ток нагрузки...   16А
+          </li>
+          <li>
+          Номинальный долговременный ток нагрузки....  13,5А
+          </li>
+          <li>
+          Напряжение питания...   230V +10%...- 10%
+          </li>
+          <li>
+          Масса в полной комплектации...   0,170кг
+          </li>
+          <li>
+          Основные габаритные размеры...   85х80х38
+          </li>
+          <li>
+          Глубина установки... 24мм
+          </li>
+          <li>
+          При скрытом монтаже стандартная монтажная коробка Ø64мм, глубина 40мм
+          </li>
+          <li>
+          При наружном монтаже коробка адаптер DK
+          </li>
+          <li>
+          Датчик температуры внешний 3м...   10kOm/25<sup><small>o</small>С
+          </li>
+          <li>
+          Температурный гистерезис 1<sup><small>o</small>С
+          </li>
+          <li>
+          Степень защиты...   IP20
+          </li>
+        </ul>
+        *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+        </div>
+      <img src="../../assets/images/termostats/analogWH800Basic/frames WARMEHAUS WH1000 2 s40.jpg" alt="Совместимость регулятора с другими системами">
+      <hr>
+      </div>
+    
+        <h4 align="center">
+        Цветовая палитра
+      </h4>
+    
+      <p align="center">
+        <i>Белый / Слоновая кость</i>
+      </p>
+      
+      <div id="container" align="center" class="imageCont">
+
+      <img src="../../assets/images/termostats/analogWH800Basic/6f507faf740c4999c67b71cfad220a16.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+      <img src="../../assets/images/termostats/analogWH800Basic/2307bd7ff938c2039f8264ff9a1a1e8c.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+
+      <img src="../../assets/images/termostats/analogWH800Basic/0e789451028da56e9fa0eeeda3183112.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px" alt="Терморегулятор теплый пол сенсорный белый">
+      <img src="../../assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
+
+      <img src="../../assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"  alt="Терморегулятор теплый пол сенсорный белый упаковка">
+
+      </div>
+      <hr>
+      </div>
+    `,
+    picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
+  },
+  { id: 85, name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC', nominal: '79,0м2 - 1580W', price: 570.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 86, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '92,0м2 - 1840W', price: 684.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 87, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '116,0м2 - 2320W', price: 798.00, description: "", picPath: "", picAlt: "Some Alt" },
   { id: 89, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '140,0м2 - 2800W', price: 912.00, description: "", picPath: "", picAlt: "Some Alt" },
