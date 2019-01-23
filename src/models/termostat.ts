@@ -9,7 +9,7 @@ export interface Termostat {
   picPath: string;
   picAlt: string;
 }
-// An array of termostats with markup.
+// An array of termostats with markup (Safe HTML used).
 export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
   // Терморегулятор WÄRMEHAUS TouchScreen
   {
