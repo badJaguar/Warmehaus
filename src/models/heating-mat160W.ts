@@ -1,4 +1,4 @@
-export interface ICab20WUvProtection {
+export interface IHeatingMat160W {
   id: number;
   name: string;
   nominal: string;

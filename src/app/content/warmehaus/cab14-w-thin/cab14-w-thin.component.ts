@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSort, MatPaginator, MatTableDataSource } from '@angular/material';
-import { ELEMENT_DATA_MAT_CAB_14W_THIN } from 'src/models/cab-14w-thin';
+import { ELEMENT_DATA_MAT_CAB_14W_THIN } from 'src/data/cab-14w-thin-data';
 
 @Component({
   selector: 'app-cab14-w-thin',

@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource, MatSort, MatPaginator } from '@angular/material';
-import { ELEMENT_DATA_MAT_200W } from 'src/models/heating-cable200W';
+import { ELEMENT_DATA_MAT_200W } from 'src/data/heating-mat-200W-data';
 
 @Component({
   selector: 'app-warming-mat200-w',

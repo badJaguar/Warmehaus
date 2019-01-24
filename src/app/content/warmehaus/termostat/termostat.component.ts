@@ -1,10 +1,10 @@
-import { Component, OnInit, ViewChild, Input } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
-import { ELEMENT_DATA_TERMOSTATS, Termostat as ITermostat } from 'src/models/termostat';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import {IMAGEVIEWER_CONFIG } from '@hallysonh/ngx-imageviewer';
 import { MY_IMAGEVIEWER_CONFIG } from 'src/app/constants/image-view-styles';
-import { element } from '@angular/core/src/render3';
+import { ITermostat } from 'src/models/termostat';
+import { ELEMENT_DATA_TERMOSTATS } from 'src/data/termostat-data';
 
 @Component({
   selector: 'app-termostat',
