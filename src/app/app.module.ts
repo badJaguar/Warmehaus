@@ -32,6 +32,7 @@ import { TermostatComponent } from './content/warmehaus/termostat/termostat.comp
 import { SafeHtmlPipe } from './safe-html';
 import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { FilmsComponent } from './content/warmehaus/films/films.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     Cab14WThinComponent,
     Cab20WUvComponent,
     TermostatComponent,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    FilmsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,3 @@
-
 export interface ITermostat {
   id: number;
   name: string;
