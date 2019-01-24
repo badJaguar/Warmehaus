@@ -31,6 +31,7 @@ import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.com
 import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { SafeHtmlPipe } from './safe-html';
 import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [
@@ -75,7 +76,8 @@ import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
     MatRippleModule,
     MatChipsModule,
     MatTabsModule,
-    ImageViewerModule
+    ImageViewerModule,
+    ScrollToModule.forRoot()
   ],
   entryComponents: [
     PhonesSheetComponent,

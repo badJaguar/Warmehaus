@@ -26,6 +26,7 @@
     "@hallysonh/ngx-imageviewer": "^2.0.4",
     "@ng-bootstrap/ng-bootstrap": "^4.0.0",
     "@ngu/carousel": "^1.5.4",
+    "@nicky-lenaers/ngx-scroll-to": "^2.0.0",
     "angular-bootstrap-md": "^6.2.6",
     "angular-material": "^1.1.10",
     "bootstrap": "^4.1.3",

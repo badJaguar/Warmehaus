@@ -469,6 +469,7 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     nominal: 'Сенсорный', price: 247.00,
     description: `
     <div>
+    
     <hr>
         <h4 align="center">
         Описание

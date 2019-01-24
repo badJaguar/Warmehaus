@@ -14,7 +14,7 @@ import { element } from '@angular/core/src/render3';
     trigger('detailExpand', [
       state('collapsed', style({height: '0', minHeight: '0', display: 'none'})),
       state('expanded', style({height: '*'})),
-      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+      transition('expanded <=> collapsed', animate('0ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
   ],
   providers: [
