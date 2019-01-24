@@ -1,4 +1,3 @@
-import { TouchscreenComponent } from "src/app/content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component";
 
 export interface Termostat {
   id: number;
@@ -1434,8 +1433,92 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
     picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
   },
-  { id: 85, name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC', nominal: '79,0м2 - 1580W', price: 570.00, description: "", picPath: "", picAlt: "Some Alt" },
-  { id: 86, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '92,0м2 - 1840W', price: 684.00, description: "", picPath: "", picAlt: "Some Alt" },
-  { id: 87, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '116,0м2 - 2320W', price: 798.00, description: "", picPath: "", picAlt: "Some Alt" },
-  { id: 89, name: 'Двужильный WÄRMEHAUS CAB 20W UV PROTECTION', nominal: '140,0м2 - 2800W', price: 912.00, description: "", picPath: "", picAlt: "Some Alt" },
+  {
+    id: 85,
+    name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
+    <div>
+    <hr>
+        <h4 align="center">
+        Описание
+      </h4>
+      <div class="container text">
+      <i>Терморегулятор WÄRMEHAUS WH700 Используется для постоянного поддержания комфортного теплого пола.</i>
+    
+      <style>
+      li{
+        text-align: left;
+      }
+      </style>
+      <ul>
+      <li>
+      Непрограммируемый терморегулятор для систем "Теплый пол".
+      </li>
+      <li>Ручная установка температуры.</li>
+      <li>Индикация нагрева.</li>
+      <li>Двухцветный LED индикатор состояния : Зеленый - режим ожидания, Красный - режим нагрева.</li>
+      <li>Тонкая установочная часть, всего 24мм.</li>
+      <li>Пределы регулирования... +10...+40<sup>о</sup>С</li>
+      <li>Самодиагностика прибора.</li>
+      <li>Термозащита. Встроенная защита прибора от перегрева.</li>
+      <li>Нагрузка до 16А.</li>
+      <li>Прибор совместим с рамками Schneider серия Unica, Simon серия 27 Neos.</li>
+      <li>Все приборы Wärmehaus PREMIUM обеспеченны полноценной трехлетней гарантией, инструкцией на русском языке и сервисной поддержкой.</li>
+      <li>Гарантия - 3 года.</li>
+      </ul>
+
+      <hr>
+      <h4 align="center">
+        Технические данные
+      </h4>
+      <ul>
+	<li>Пределы регулирования... +10...+40<sup>о</sup>С</li>
+	<li>Точность измерения температуры... 0,5<sup>о</sup>С</li>
+	<li>Точность выставляемой температуры... 1<sup>о</sup>С</li>
+	<li>Максимальная мощность нагрузки... 3600W</li>
+	<li>Номинальная долговременная мощность нагрузки*... 3000W</li>
+	<li>Максимальный ток нагрузки... 16А</li>
+	<li>Номинальный долговременный ток нагрузки.... 13,5А</li>
+	<li>Напряжение питания... 230V +10%...- 10%</li>
+	<li>Масса в полной комплектации... 0,17кг</li>
+	<li>Основные габаритные размеры... 85х80х38</li>
+	<li>Глубина установки... 24мм</li>
+	<li>При скрытом монтаже стандартная монтажная коробка Ø64мм, глубина 40мм</li>
+	<li>При наружном монтаже коробка адаптер DK</li>
+	<li>Датчик температуры внешний 3м... 10kOm/25<sup>о</sup>С</li>
+	<li>Температурный гистерезис 1<sup>о</sup>С</li>
+	<li>Степень защиты... IP20</li>
+</ul>
+        *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+        </div>
+      <hr>
+      </div>
+    
+        <h4 align="center">
+        Цветовая палитра
+      </h4>
+    
+      <p align="center">
+        <i>Белый / Слоновая кость</i>
+      </p>
+      
+      <div id="container" align="center" class="imageCont">
+
+      <img src="../../assets/images/termostats/analogWH700Classic/a5d82f3e6f2c598c31f1d05f3e1b0455.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+      <img src="../../assets/images/termostats/analogWH700Classic/df1f17e39a8e2c4e3f043426d3cfdbc0.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+
+      <img src="../../assets/images/termostats/analogWH700Classic/9b114f8623a0d6ce11f43b6bfe67a567.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px" alt="Терморегулятор теплый пол сенсорный белый">
+      <img src="../../assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
+
+      <img src="../../assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"  alt="Терморегулятор теплый пол сенсорный белый упаковка">
+
+      </div>
+      <hr>
+      </div>
+    `,
+    picPath: "../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой"
+  },
 ];

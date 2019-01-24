@@ -4,7 +4,7 @@ import { ELEMENT_DATA_TERMOSTATS, Termostat as Termostat } from 'src/models/term
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import {IMAGEVIEWER_CONFIG } from '@hallysonh/ngx-imageviewer';
 import { MY_IMAGEVIEWER_CONFIG } from 'src/app/constants/image-view-styles';
-import { TouchscreenComponent } from './descriptions/touchscreen/touchscreen.component';
+import { element } from '@angular/core/src/render3';
 
 @Component({
   selector: 'app-termostat',
@@ -24,12 +24,13 @@ import { TouchscreenComponent } from './descriptions/touchscreen/touchscreen.com
     }
   ]
 })
-
 export class TermostatComponent implements OnInit {
 
+  
   columnsToDisplay = ['name', 'nominal', 'price'];
   headerNames : string[] = ['Тип','м2/Вт','Цена'];
   expandedElement: Termostat | null;
+  
 
   dataSource = new MatTableDataSource(ELEMENT_DATA_TERMOSTATS);
 

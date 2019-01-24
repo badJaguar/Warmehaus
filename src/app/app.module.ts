@@ -28,7 +28,6 @@ import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-th
 import { ContentComponent } from './content/content/content.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
-import { TouchscreenComponent } from './content/warmehaus/termostat/descriptions/touchscreen/touchscreen.component';
 import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { SafeHtmlPipe } from './safe-html';
 import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
@@ -51,7 +50,6 @@ import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
     Cab14WThinComponent,
     Cab20WUvComponent,
     TermostatComponent,
-    TouchscreenComponent,
     SafeHtmlPipe
   ],
   imports: [
