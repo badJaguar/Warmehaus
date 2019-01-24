@@ -1,10 +1,10 @@
-export interface Cab11WThin {
+export interface ICab11WThin {
   id: number;
   name: string;
   nominal: string;
   price: number;
 }
-export var ELEMENT_DATA_MAT_CAB_11W_THIN: Cab11WThin[] = [
+export var ELEMENT_DATA_MAT_CAB_11W_THIN: ICab11WThin[] = [
   { id: 31, name: 'Двужильный WÄRMEHAUS CAB 11W Thin', nominal: '10,0м2 - 112W', price: 133.00 },
   { id: 32, name: 'Двужильный WÄRMEHAUS CAB 11W Thin', nominal: '14,3м2 - 160W', price: 152.00 },
   { id: 33, name: 'Двужильный WÄRMEHAUS CAB 11W Thin', nominal: '21,5м2 - 240W', price: 170.00 },

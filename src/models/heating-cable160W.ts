@@ -1,10 +1,10 @@
-export interface HeatingCable160W {
+export interface IHeatingCable160W {
   id: number;
   name: string;
   nominal: string;
   price: number;
 }
-export var ELEMENT_DATA_MAT_160W: HeatingCable160W[] = [
+export var ELEMENT_DATA_MAT_160W: IHeatingCable160W[] = [
   { id: 1, name: 'Двужильный WÄRMEHAUS MAT 160W', nominal: '0,7м2 - 112W', price: 152.00 },
   { id: 2, name: 'Двужильный WÄRMEHAUS MAT 160W', nominal: '1,0м2 - 160W', price: 171.00 },
   { id: 3, name: 'Двужильный WÄRMEHAUS MAT 160W', nominal: '1,5м2 - 240W', price: 200.00 },

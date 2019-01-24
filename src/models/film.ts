@@ -1,10 +1,10 @@
-export interface Film {
+export interface IFilm {
     id: number;
     name: string;
     nominal: string;
     price: number;
 }
-export var ELEMENT_DATA_FILMS: Film[] = [
+export var ELEMENT_DATA_FILMS: IFilm[] = [
     { id: 86, name: 'Инфракрасная нагревательная пленка WÄRMEHAUS infrared Film', nominal: 'HighPower 220W/m2. 0,5м.кв. - 110Вт', price: 36.00 },
     { id: 87, name: 'Инфракрасная нагревательная пленка WÄRMEHAUS infrared Film', nominal: 'HighPower 220W/m2. 1,0м.кв. - 220Вт', price: 51.00 },
     { id: 88, name: 'Инфракрасная нагревательная пленка WÄRMEHAUS infrared Film', nominal: 'HighPower 220W/m2. 1,5м.кв. - 330Вт', price: 74.00 },

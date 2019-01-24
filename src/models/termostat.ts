@@ -1,5 +1,5 @@
 
-export interface Termostat {
+export interface ITermostat {
   id: number;
   name: string;
   nominal: string;
@@ -9,7 +9,7 @@ export interface Termostat {
   picAlt: string;
 }
 // An array of termostats with markup (Safe HTML used).
-export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
+export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
   // Терморегулятор WÄRMEHAUS TouchScreen
   {
     id: 75,
@@ -1287,7 +1287,7 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
   },
   // Терморегулятор WÄRMEHAUS WH300 WI-FI TODO: To fill
   { id: 83, name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI', nominal: 'WI-FI', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
-  // 
+  // Терморегулятор WÄRMEHAUS WH800 BASIC
   {
     id: 84,
     name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
@@ -1434,6 +1434,7 @@ export var ELEMENT_DATA_TERMOSTATS: Termostat[] = [
     picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
     picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
   },
+  // Терморегулятор WÄRMEHAUS WH700 CLASSIC
   {
     id: 85,
     name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
