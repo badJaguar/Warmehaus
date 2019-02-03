@@ -33,6 +33,7 @@ import { SafeHtmlPipe } from './safe-html';
 import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { FilmsComponent } from './content/warmehaus/films/films.component';
+import { ContactsComponent } from './content/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { FilmsComponent } from './content/warmehaus/films/films.component';
     Cab20WUvComponent,
     TermostatComponent,
     SafeHtmlPipe,
-    FilmsComponent
+    FilmsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
