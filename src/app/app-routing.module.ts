@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'home', component: MainPageComponent},
   { path: 'warmehaus',
    component: WarmehausComponent,
-    children:[
+    children: [
   {path: 'mat-160W', component: WarmingMat160WComponent},
   {path: 'mat-200W', component: WarmingMat200WComponent},
   {path: 'cab-11W-thin', component: Cab11WThinComponent},
