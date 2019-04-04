@@ -1,21 +1,22 @@
-import { ITermostat } from "src/models/termostat";
+import { ITermostat } from 'src/models/termostat';
 
 // An array of termostats with markup (Safe HTML used).
-export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
-    // Терморегулятор WÄRMEHAUS TouchScreen
-    {
-      id: 75,
-      name: 'Терморегулятор WÄRMEHAUS TouchScreen',
-      nominal: 'Сенсорный',
-      price: 247.00,
-      description: `
+export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
+  // Терморегулятор WÄRMEHAUS TouchScreen
+  {
+    id: 75,
+    name: 'Терморегулятор WÄRMEHAUS TouchScreen',
+    nominal: 'Сенсорный',
+    price: 247.00,
+    description: `
       <div>
   <hr>
       <h4 align="center">
       Описание
     </h4>
     <div class="container text">
-    <i>Терморегулятор Сенсорный WÄRMEHAUS TOUCHSCREEN 24/7 Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
+    <i>Терморегулятор Сенсорный WÄRMEHAUS TOUCHSCREEN 24/7 Используется для поддержания комфортного теплого
+     пола в заданные временные интервалы</i>
   
     <style>
     li{
@@ -175,16 +176,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
     <hr>
     </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg",
-      picAlt: "ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN"
-    },
-    // Терморегулятор WÄRMEHAUS WH100
-    {
-      id: 76,
-      name: 'Терморегулятор WÄRMEHAUS WH100',
-      nominal: 'Аналоговый',
-      price: 114.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg',
+    picAlt: 'ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN'
+  },
+  // Терморегулятор WÄRMEHAUS WH100
+  {
+    id: 76,
+    name: 'Терморегулятор WÄRMEHAUS WH100',
+    nominal: 'Аналоговый',
+    price: 114.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -311,16 +312,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg",
-      picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
-    },
-    // Терморегулятор WÄRMEHAUS WH200
-    {
-      id: 77,
-      name: 'Терморегулятор WÄRMEHAUS WH200',
-      nominal: 'Аналоговый',
-      price: 114.00,
-      description: `
+    picPath: "../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg",
+    picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
+  },
+  // Терморегулятор WÄRMEHAUS WH200
+  {
+    id: 77,
+    name: 'Терморегулятор WÄRMEHAUS WH200',
+    nominal: 'Аналоговый',
+    price: 114.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -451,15 +452,15 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg",
-      picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
-    },
-    // Терморегулятор WÄRMEHAUS WH400 PRO
-    {
-      id: 78,
-      name: 'Терморегулятор WÄRMEHAUS WH400 PRO',
-      nominal: 'Сенсорный', price: 247.00,
-      description: `
+    picPath: "../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg",
+    picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
+  },
+  // Терморегулятор WÄRMEHAUS WH400 PRO
+  {
+    id: 78,
+    name: 'Терморегулятор WÄRMEHAUS WH400 PRO',
+    nominal: 'Сенсорный', price: 247.00,
+    description: `
       <div>
       
       <hr>
@@ -611,16 +612,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg",
-      picAlt: "Терморегулятор сенсорный белый WH400 Pro"
-    },
-    // Терморегулятор WÄRMEHAUS WH500 PRO
-    {
-      id: 79,
-      name: 'Терморегулятор WÄRMEHAUS WH500 PRO',
-      nominal: 'Сенсорный',
-      price: 247.00,
-      description: `
+    picPath: "../../assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg",
+    picAlt: "Терморегулятор сенсорный белый WH400 Pro"
+  },
+  // Терморегулятор WÄRMEHAUS WH500 PRO
+  {
+    id: 79,
+    name: 'Терморегулятор WÄRMEHAUS WH500 PRO',
+    nominal: 'Сенсорный',
+    price: 247.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -792,16 +793,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg",
-      picAlt: "Терморегулятор теплый пол сенсорный белый WH 500 Pro"
-    },
-    // Терморегулятор WÄRMEHAUS WH600 PRO
-    {
-      id: 80,
-      name: 'Терморегулятор WÄRMEHAUS WH600 PRO',
-      nominal: 'Сенсорный',
-      price: 228.00,
-      description: `
+    picPath: "../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg",
+    picAlt: "Терморегулятор теплый пол сенсорный белый WH 500 Pro"
+  },
+  // Терморегулятор WÄRMEHAUS WH600 PRO
+  {
+    id: 80,
+    name: 'Терморегулятор WÄRMEHAUS WH600 PRO',
+    nominal: 'Сенсорный',
+    price: 228.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -949,16 +950,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками"
-    },
-    // Терморегулятор WÄRMEHAUS WH1000 PRO
-    {
-      id: 81,
-      name: 'Терморегулятор WÄRMEHAUS WH1000 PRO',
-      nominal: 'Аналоговый',
-      price: 228.00,
-      description: `
+    picPath: "../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками"
+  },
+  // Терморегулятор WÄRMEHAUS WH1000 PRO
+  {
+    id: 81,
+    name: 'Терморегулятор WÄRMEHAUS WH1000 PRO',
+    nominal: 'Аналоговый',
+    price: 228.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -1117,16 +1118,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH1000 PRO лучшего качества"
-    },
-    // Терморегулятор WÄRMEHAUS WH900 DIGITAL
-    {
-      id: 82,
-      name: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL',
-      nominal: 'Сенсорный',
-      price: 133.00,
-      description: `
+    picPath: "../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH1000 PRO лучшего качества"
+  },
+  // Терморегулятор WÄRMEHAUS WH900 DIGITAL
+  {
+    id: 82,
+    name: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL',
+    nominal: 'Сенсорный',
+    price: 133.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -1274,18 +1275,131 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу"
-    },
-    // Терморегулятор WÄRMEHAUS WH300 WI-FI TODO: To fill
-    { id: 83, name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI', nominal: 'WI-FI', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
-    // Терморегулятор WÄRMEHAUS WH800 BASIC
-    {
-      id: 84,
-      name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
-      nominal: 'Аналоговый',
-      price: 105.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу'
+  },
+  // Терморегулятор WÄRMEHAUS WH300 WI-FI
+  {
+    id: 83,
+    name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI',
+    nominal: 'WI-FI',
+    price: 418.00, description: `
+    <div>
+    <hr>
+        <h4 align="center">
+        Описание
+      </h4>
+      <div class="container text">
+      <i>Терморегулятор WÄRMEHAUS WH300 WIFI Используется для поддержания комфортного
+       теплого пола в течении суток. Информативный LED индикатор состояний.</i>
+      <style>
+      li{
+        text-align: left;
+      }
+      </style>
+      <ul>
+	          <li>Программируемый сенсорный цифровой терморегулятор для "Теплого пола".</li>
+	          <li><strong>Удобное управление терморегулятором прямо с телефона или из браузера.</strong></li>
+            <li>Цифровое управление теплом.</li>
+            <li>Полностью программируемый прибор с недельным управлением.</li>
+            <li>Вы сможете одним прикосновением к экрану своего смартфона прекратить нагрев
+            на определенное время или выключить полностью. Задать время старта.
+            При этом прибор автоматически включит теплый пол по истечению заданного времени.
+            Этот режим удобен, например, тогда когда вы уезжаете в отпуск и точно знаете когда
+            возвращаетесь домой. А пока Вы на работе или на ночь, можно воспользоваться программой
+            которая автоматически будет поддерживать комфортную температуру. Удобство заключается
+            в том, что Вам не понадобится включать нагрев по приходе с работы или утром, после сна.
+            Прибор включит теплый пол автоматически, когда вы проснулись и выключит когда вы уходите из дома.
+            Рекомендуем устанавливать температуру в отсутствии вас дома на 2-4 градуса ниже чем
+            комфортная температура в остальное время, пока вы бодрствуете и находитесь дома.</li>
+            <li>Редактирование программ происходит очень просто и уже через несколько секунд
+            прибор получает новые заданные установки. Управление прибором осуществляется из
+            любой точки Мира где есть интернет.</li>
+            <li>Если сеть WiFi в доме где установлен прибор пропадет по каким либо причинам,
+            термостат WÄRMEHAUS WH300 WIFI продолжит свою работу по установленной программе а
+             как только сеть появится он получит новую задачу если вы что либо меняли в программе.</li>
+            <li>Индикация нагрева:</li>
+            <li>LED индикатор состояния :&nbsp; Красный в режиме нагрева.</li>
+            <li>LED индикатор сети WIFI : &nbsp; Синий в режиме поиска сети и индикации состояния прибора.</li>
+            <li>Высококонтрастный Сегментный LED&nbsp; индикатор белого цвета с функцией затухания яркости.</li>
+            <li>Тонкая установочная часть, всего 24мм.</li>
+            <li>Функция самодиагностики.</li>
+            <li>Термозащита. Встроенная защита прибора от перегрева.</li>
+            <li>Режим регулировки мощности таймером при работе без датчика температуры.</li>
+            <li>Возможность выбора номинала датчика, эта функция полезна когда вы меняете
+            прибор любого другого производителя а заменить выносной датчик не представляется
+            возможным,. Просто заменяете прибор а старый датчик оставляете на месте, в&nbsp;
+            приборе WÄRMEHAUS WH300 WIFI просто выбираете тот датчик который необходим.</li>
+            <li>Нагрузка до 16А.</li>
+            <li>Прибор совместим с рамками <span style="color: rgb(178, 34, 34); --darkreader-inline-color:#ffb0b0;
+            " data-darkreader-inline-color="">Schneider серия Unica, Simon серия 27 Neos.</span></li>
+            <li>Все приборы WÄRMEHAUS PREMIUM обеспеченны полноценной трехлетней гарантией,
+            инструкцией включительно на русском языке и сервисной поддержкой.</li>
+            <li>Гарантия - 3 года.</li>
+          </ul>
+
+      <hr>
+      <h4 align="center">
+        Технические данные
+      </h4>
+      <ul>
+	<li><span dir="rtl">Пределы регулирования...&nbsp;&nbsp; +5...+40<sup>о</sup>С </span></li>
+  <li><span dir="rtl">Точность измерения температуры...&nbsp;&nbsp;
+  0,1</span><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></li>
+  <li><span dir="rtl">Точность выставляемой температуры...&nbsp;&nbsp;
+  1</span><span dir="rtl"><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></span></li>
+	<li><span dir="rtl">Максимальная мощность нагрузки...&nbsp;&nbsp; 3600W</span></li>
+	<li><span dir="rtl">Номинальная <strong>долговременная мощность нагрузки*</strong>...&nbsp;&nbsp; 3000W</span></li>
+	<li><span dir="rtl">Максимальный ток нагрузки...&nbsp;&nbsp; 16А</span></li>
+	<li><span dir="rtl">Номинальный долговременный ток нагрузки....&nbsp; 13,5А</span></li>
+	<li><span dir="rtl">Напряжение питания...&nbsp;&nbsp; 230V +10%...- 10%</span></li>
+	<li><span dir="rtl">Масса в полной комплектации...&nbsp;&nbsp; 0,18кг</span></li>
+	<li><span dir="rtl">Основные габаритные размеры...&nbsp;&nbsp; 85х80х38</span></li>
+	<li>Глубина установки... 24мм</li>
+	<li>При скрытом монтаже стандартная монтажная коробка Ø64мм, глубина 40мм</li>
+	<li>При наружном монтаже установка в проставочный адаптер (не поставляется в комплекте), приобретается отдельно.</li>
+	<li><span dir="rtl">Датчик температуры внешний 3м. (Аналоговый)</span></li>
+	<li><span dir="rtl">Температурный гистерезис 1</span><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></li>
+	<li><span dir="rtl">Степень защиты...&nbsp;&nbsp; IP20</span></li>
+</ul>
+*Не рекомендуется использование долговременной нагрузки свыше номинальной.
+При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+
+<p>Терморегулятор совместим с рамками Schneider серия Unica, Simon серия 27 Neos.</p>
+        </div>
+      <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+      alt="Совместимость регулятора с другими системами">
+      <hr>
+      </div>
+        <h4 align="center">
+        Цветовая палитра
+      </h4>
+      <p align="center">
+        <i>Белый / Слоновая кость</i>
+      </p>
+      <div id="container" align="center" class="imageCont">
+
+      <img src="../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg"
+       style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+       alt="Терморегулятор теплый пол wifi Белый">
+      <img src="../../assets/images/termostats/wi-fiWH300WIFI/0c2e17c9a1f5d0c869ce2dff1009050a.jpg"
+      style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+      alt="Терморегулятор теплый пол вайфай Слоновая кость">
+
+      </div>
+      <hr>
+      </div>
+    `,
+    picPath: '../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg',
+    picAlt: 'Some Alt'
+  },
+  // Терморегулятор WÄRMEHAUS WH800 BASIC
+  {
+    id: 84,
+    name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -1423,16 +1537,16 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
-    },
-    // Терморегулятор WÄRMEHAUS WH700 CLASSIC
-    {
-      id: 85,
-      name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
-      nominal: 'Аналоговый',
-      price: 105.00,
-      description: `
+    picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
+  },
+  // Терморегулятор WÄRMEHAUS WH700 CLASSIC
+  {
+    id: 85,
+    name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -1512,7 +1626,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой"
-    },
-  ];
+    picPath: "../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg",
+    picAlt: "Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой"
+  },
+];

@@ -21,7 +21,7 @@ import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
 import { ToolbarComponent } from './menu-components/toolbar/toolbar.component';
 import { PhonesSheetComponent } from './menu-components/phones-sheet/phones-sheet.component';
 import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
-import { FlexLayoutModule } from "@angular/flex-layout";
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
 import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.component';
 import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
