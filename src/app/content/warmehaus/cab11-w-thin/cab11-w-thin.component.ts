@@ -11,10 +11,8 @@ export class Cab11WThinComponent implements OnInit {
 
   displayedColumns: string[] = ['name', 'nominal', 'price'];
     dataSource1 = new MatTableDataSource(ELEMENT_DATA_MAT_CAB_11W_THIN);
-  
     @ViewChild(MatSort) sort: MatSort;
     @ViewChild(MatPaginator) paginator: MatPaginator;
-  
     ngOnInit() {
       this.dataSource1.sort = this.sort;
       this.dataSource1.paginator = this.paginator;
