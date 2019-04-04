@@ -26,11 +26,9 @@ import { ELEMENT_DATA_TERMOSTATS } from 'src/data/termostat-data';
 })
 export class TermostatComponent implements OnInit {
 
-  
   columnsToDisplay = ['name', 'nominal', 'price'];
-  headerNames : string[] = ['Тип','м2/Вт','Цена'];
+  headerNames: string[] = ['Тип', 'м2/Вт', 'Цена'];
   expandedElement: ITermostat | null;
-  
 
   dataSource = new MatTableDataSource(ELEMENT_DATA_TERMOSTATS);
 

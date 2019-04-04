@@ -1,4 +1,4 @@
-import { createButtonConfig } from "@hallysonh/ngx-imageviewer";
+import { createButtonConfig } from '@hallysonh/ngx-imageviewer';
 
 // https://www.npmjs.com/package/@hallysonh/ngx-imageviewer
 
@@ -25,7 +25,7 @@ export const MY_IMAGEVIEWER_CONFIG: any = {
     textStyle: '#ffffff', // tooltip's text style
     textAlpha: 0.9, // tooltip's text transparence
     padding: 20, // tooltip padding
-    radius: 20, // tooltip border radius 
+    radius: 20, // tooltip border radius
   },
   zoomOutButton: { // zoomOut button config
     icon: 'zoom_out', // icon text

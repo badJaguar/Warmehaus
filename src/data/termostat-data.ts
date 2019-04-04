@@ -1,28 +1,27 @@
-import { ITermostat } from "src/models/termostat";
+import { ITermostat } from 'src/models/termostat';
 
 // An array of termostats with markup (Safe HTML used).
-export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
-    // Терморегулятор WÄRMEHAUS TouchScreen
-    {
-      id: 75,
-      name: 'Терморегулятор WÄRMEHAUS TouchScreen',
-      nominal: 'Сенсорный',
-      price: 247.00,
-      description: `
+export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
+  // Терморегулятор WÄRMEHAUS TouchScreen
+  {
+    id: 75,
+    name: 'Терморегулятор WÄRMEHAUS TouchScreen',
+    nominal: 'Сенсорный',
+    price: 247.00,
+    description: `
       <div>
   <hr>
       <h4 align="center">
       Описание
     </h4>
     <div class="container text">
-    <i>Терморегулятор Сенсорный WÄRMEHAUS TOUCHSCREEN 24/7 Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
-  
+    <i>Терморегулятор Сенсорный WÄRMEHAUS TOUCHSCREEN 24/7 Используется для поддержания комфортного теплого
+     пола в заданные временные интервалы</i>
     <style>
     li{
       text-align: left;
     }
     </style>
-  
     <ul>
       <li>
         Программируемый <b>Сенсорный 24/7</b> терморегулятор для систем "Теплый пол".
@@ -46,7 +45,8 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         Режим работы по внешнему датчику - для комфортного обогрева.
       </li>
       <li>
-        Режим работы по двум датчикам - для основного обогрева. Датчик воздуха (встроенный) - основной. Датчик пола (внешний) - ограничитель.
+        Режим работы по двум датчикам - для основного обогрева. Датчик воздуха (встроенный) - основной.
+        Датчик пола (внешний) - ограничитель.
       </li>
       <li>
         Функция экономии энергопотребления.
@@ -91,7 +91,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         Гарантия - 3 года.
       </li>
     </ul>
-  
     <hr>
   <h4 align="center">
     Технические данные
@@ -149,42 +148,43 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
       Степень защиты...   IP20
       </li>
     </ul>
-    *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3200 Вт рекомендуется использование внешнего контактора.
+    *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+    При подключении долговременной нагрузки свыше 3200 Вт рекомендуется использование внешнего контактора.
     </div>
   <hr>
       <h4 align="center">
       Цветовая палитра
     </h4>
-  
     <p align="center">
       <i>Чёрный / Серебро / Белый / Слоновая кость</i>
     </p>
-    
     <div id="container" align="center" class="imageCont">
-    
-    <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный черный">
-  
-    <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный слоновая кость">
-  
-    <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-  
-    <img src="../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg " style="padding-left: 5%; padding-right: 5%; padding-top:15px; alt="Терморегулятор теплый пол сенсорный белый">
-  
+    <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg"
+    style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+    alt="Терморегулятор теплый пол сенсорный черный">
+    <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg"
+    style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+    alt="Терморегулятор теплый пол сенсорный слоновая кость">
+    <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg"
+    style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+    alt="Терморегулятор теплый пол сенсорный белый">
+    <img src="../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg "
+    style="padding-left: 5%; padding-right: 5%; padding-top:15px;
+    alt="Терморегулятор теплый пол сенсорный белый">
     </div>
-    
     <hr>
     </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg",
-      picAlt: "ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN"
-    },
-    // Терморегулятор WÄRMEHAUS WH100
-    {
-      id: 76,
-      name: 'Терморегулятор WÄRMEHAUS WH100',
-      nominal: 'Аналоговый',
-      price: 114.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg',
+    picAlt: 'ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN'
+  },
+  // Терморегулятор WÄRMEHAUS WH100
+  {
+    id: 76,
+    name: 'Терморегулятор WÄRMEHAUS WH100',
+    nominal: 'Аналоговый',
+    price: 114.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -192,13 +192,11 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH 100 Используется для постоянного поддержания комфортного теплого пола</i>
-      
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Непрограммируемый терморегулятор для систем  "Теплый пол".
@@ -219,7 +217,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Нагрузка до 14А.
           </li>
           <li>
-          Прибор совместим с рамками  <b>Polo, Elyo, Busch&Jaeger</b>. 
+          Прибор совместим с рамками  <b>Polo, Elyo, Busch&Jaeger</b>.
           </li>
           <li>
           Может быть установлен в комбинации с различными типами выключателей.
@@ -285,42 +283,41 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP20
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-      
-        <img src="../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-  
-        <img src="../../assets/images/termostats/analogWH100/4f1f1f1b1d32829a8b8485403cf8e2ef.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/analogWH100/WH100_front_s700.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-      
+        <img src="../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH100/4f1f1f1b1d32829a8b8485403cf8e2ef.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH100/WH100_front_s700.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
         </div>
-      
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg",
-      picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
-    },
-    // Терморегулятор WÄRMEHAUS WH200
-    {
-      id: 77,
-      name: 'Терморегулятор WÄRMEHAUS WH200',
-      nominal: 'Аналоговый',
-      price: 114.00,
-      description: `
+    picPath: '../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg',
+    picAlt: 'Терморегулятор регулируемый не программируемый (аналоговый)'
+  },
+  // Терморегулятор WÄRMEHAUS WH200
+  {
+    id: 77,
+    name: 'Терморегулятор WÄRMEHAUS WH200',
+    nominal: 'Аналоговый',
+    price: 114.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -328,13 +325,11 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH 200 Используется для постоянного поддержания комфортного теплого пола</i>
-      
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Непрограммируемый терморегулятор для систем  "Теплый пол".
@@ -358,7 +353,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Нагрузка до 14А.
           </li>
           <li>
-          Прибор совместим с рамками  <b>ABB, Gira, Jung, Schneider серия M</b>. 
+          Прибор совместим с рамками  <b>ABB, Gira, Jung, Schneider серия M</b>.
           </li>
           <li>
           Может быть установлен в комбинации с различными типами выключателей.
@@ -370,7 +365,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -425,56 +419,52 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP20
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Альпийский белый</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-      
-        <img src="../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-  
-        <img src="../../assets/images/termostats/analogWH200/f264102ae0357a1b761b197a22b58cde.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/analogWH200/WH200_front_s700.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-      
+        <img src="../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH200/f264102ae0357a1b761b197a22b58cde.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH200/WH200_front_s700.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
         </div>
-      
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg",
-      picAlt: "Терморегулятор регулируемый не программируемый (аналоговый)"
-    },
-    // Терморегулятор WÄRMEHAUS WH400 PRO
-    {
-      id: 78,
-      name: 'Терморегулятор WÄRMEHAUS WH400 PRO',
-      nominal: 'Сенсорный', price: 247.00,
-      description: `
+    picPath: '../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg',
+    picAlt: 'Терморегулятор регулируемый не программируемый (аналоговый)'
+  },
+  // Терморегулятор WÄRMEHAUS WH400 PRO
+  {
+    id: 78,
+    name: 'Терморегулятор WÄRMEHAUS WH400 PRO',
+    nominal: 'Сенсорный', price: 247.00,
+    description: `
       <div>
-      
       <hr>
           <h4 align="center">
           Описание
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH400 PRO Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
-      
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Цифровое управление теплом.
@@ -498,7 +488,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Индикация нагрева.
           </li>
           <li>
-          Индикация текущей и заданной температуры. 
+          Индикация текущей и заданной температуры.
           </li>
           <li>
           <b>Высококонтрастный LED СЕНСОРНЫЙ  экран.</b>
@@ -528,7 +518,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -586,58 +575,57 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP21
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/frames WH600 1 s400.jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/touchscreenWH400Pro/frames WH600 1 s400.jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Белый</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH400_s800.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/WH400_front_s700.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-      
+        <img src="../../assets/images/termostats/touchscreenWH400Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH400_s800.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/touchscreenWH400Pro/WH400_front_s700.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
         </div>
-      
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg",
-      picAlt: "Терморегулятор сенсорный белый WH400 Pro"
-    },
-    // Терморегулятор WÄRMEHAUS WH500 PRO
-    {
-      id: 79,
-      name: 'Терморегулятор WÄRMEHAUS WH500 PRO',
-      nominal: 'Сенсорный',
-      price: 247.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg',
+    picAlt: 'Терморегулятор сенсорный белый WH400 Pro'
+  },
+  // Терморегулятор WÄRMEHAUS WH500 PRO
+  {
+    id: 79,
+    name: 'Терморегулятор WÄRMEHAUS WH500 PRO',
+    nominal: 'Сенсорный',
+    price: 247.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
           Описание
         </h4>
         <div class="container text">
-        <i>Терморегулятор WÄRMEHAUS WH500 PRO Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
-      
+        <i>Терморегулятор WÄRMEHAUS WH500 PRO Используется для поддержания
+        комфортного теплого пола в заданные временные интервалы</i>
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
-          <b>Уникальный пользовательский интерфейс с новым меню и сенсорной навигацией для простого программирования и считывания информации.</b>
+          <b>Уникальный пользовательский интерфейс с новым меню и сенсорной навигацией для простого
+          программирования и считывания информации.</b>
           </li>
           <li>
           Программируемый 24/7 терморегулятор для систем " Теплый пол".
@@ -646,7 +634,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Программирование по дням недели : Рабочий/Выходной день -  5/2 или 6/1 или 7/0.
           </li>
           <li>
-          Программирование <b>4-х или 6-ти</b> временных событий в сутки. 
+          Программирование <b>4-х или 6-ти</b> временных событий в сутки.
           </li>
           <li>
           Энергонезависимые часы. Срок службы резервной батареи для часов и календаря 5 лет
@@ -655,7 +643,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Функция ручного управления.
           </li>
           <li>
-          <b>Два датчика : Встроенный и внешний/выносной датчики температуры.</b> 
+          <b>Два датчика : Встроенный и внешний/выносной датчики температуры.</b>
           </li>
           <li>
           Функция интеллектуальной экономии энергопотребления "ПРОГНОЗ-ПРЕДВАРИТЕЛЬНЫЙ ПРОГРЕВ".
@@ -667,7 +655,7 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Индикация нагрева, отражение текущей и заданной температуры, дня недели, даты и текущего времени.
           </li>
           <li>
-          Цветной сенсорный 2" экран. 
+          Цветной сенсорный 2" экран.
           </li>
           <li>
           Настраиваемая яркость экрана.
@@ -706,7 +694,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -764,44 +751,45 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP21
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/frames WH600 1 s400(1).jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/touchscreenWH500Pro/frames WH600 1 s400(1).jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/798ed46c91bded57ac29d03623b8e0f1.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный слоновая кость">
-  
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH500_s800.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; padding-bottom: 15px" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/WH500_front_s700.jpg" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-      
+        <img src="../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/touchscreenWH500Pro/798ed46c91bded57ac29d03623b8e0f1.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный слоновая кость">
+        <img src="../../assets/images/termostats/touchscreenWH500Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH500_s800.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; padding-bottom: 15px"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/touchscreenWH500Pro/WH500_front_s700.jpg"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
-      
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg",
-      picAlt: "Терморегулятор теплый пол сенсорный белый WH 500 Pro"
-    },
-    // Терморегулятор WÄRMEHAUS WH600 PRO
-    {
-      id: 80,
-      name: 'Терморегулятор WÄRMEHAUS WH600 PRO',
-      nominal: 'Сенсорный',
-      price: 228.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg',
+    picAlt: 'Терморегулятор теплый пол сенсорный белый WH 500 Pro'
+  },
+  // Терморегулятор WÄRMEHAUS WH600 PRO
+  {
+    id: 80,
+    name: 'Терморегулятор WÄRMEHAUS WH600 PRO',
+    nominal: 'Сенсорный',
+    price: 228.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -809,13 +797,11 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH600 PRO Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
-      
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Программируемый терморегулятор для систем  "Теплый пол".
@@ -863,7 +849,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -921,44 +906,46 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP21
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH600Pro/frames WH600 1 s400(1).jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/analogWH600Pro/frames WH600 1 s400(1).jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Альпийский белый</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/analogWH600Pro/cb7a619d3c125f9ac793b07976574b97.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный с подсветкой">
-        <img src="../../assets/images/termostats/analogWH600Pro/33eebdcf9e7d2ae640e4f9bf11a2cfd9.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол аналоговый альпийкий белый">
-  
-        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ ПОЛ THERMOSTAT WARMEHAUS WH600 FRAME ABB GIRA JUNG 3 s400.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-      
+        <img src="../../assets/images/termostats/analogWH600Pro/cb7a619d3c125f9ac793b07976574b97.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный с подсветкой">
+        <img src="../../assets/images/termostats/analogWH600Pro/33eebdcf9e7d2ae640e4f9bf11a2cfd9.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол аналоговый альпийкий белый">
+        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ ПОЛ THERMOSTAT WARMEHAUS WH600 FRAME ABB GIRA JUNG 3 s400.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
-      
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками"
-    },
-    // Терморегулятор WÄRMEHAUS WH1000 PRO
-    {
-      id: 81,
-      name: 'Терморегулятор WÄRMEHAUS WH1000 PRO',
-      nominal: 'Аналоговый',
-      price: 228.00,
-      description: `
+    picPath: '../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками'
+  },
+  // Терморегулятор WÄRMEHAUS WH1000 PRO
+  {
+    id: 81,
+    name: 'Терморегулятор WÄRMEHAUS WH1000 PRO',
+    nominal: 'Аналоговый',
+    price: 228.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -966,13 +953,11 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH1000 PRO Используется для поддержания комфортного теплого пола в заданные временные интервалы</i>
-      
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Программируемый терморегулятор для систем  "Теплый пол".
@@ -1026,7 +1011,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -1087,60 +1071,65 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP21
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH1000Pro/frames WARMEHAUS WH1000 2 s400(2)(1).jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/analogWH1000Pro/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Альпийский белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH1000Pro/a01266454347a1e78564c26d55fb3bd1.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-  
-        <img src="../../assets/images/termostats/analogWH1000Pro/8933d2cdd2e3dea8180e3aea9c4cecf6.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px" alt="Терморегулятор теплый пол сенсорный белый">
-    
-        <img src="../../assets/images/termostats/analogWH1000Pro/47745146e538837899cec8737fe4f408.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
-        <img src="../../assets/images/termostats/analogWH1000Pro/61ee076a4143dee0caae125ddd5151a9.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;  max-height: 420px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="../../assets/images/termostats/analogWH1000Pro/WH1000_front_s800..jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px;" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
+        <img src="../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg"
+        style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+        <img src="../../assets/images/termostats/analogWH1000Pro/a01266454347a1e78564c26d55fb3bd1.jpg"
+        style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+        <img src="../../assets/images/termostats/analogWH1000Pro/8933d2cdd2e3dea8180e3aea9c4cecf6.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH1000Pro/47745146e538837899cec8737fe4f408.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
+        <img src="../../assets/images/termostats/analogWH1000Pro/61ee076a4143dee0caae125ddd5151a9.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;  max-height: 420px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
+        <img src="../../assets/images/termostats/analogWH1000Pro/WH1000_front_s800..jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH1000 PRO лучшего качества"
-    },
-    // Терморегулятор WÄRMEHAUS WH900 DIGITAL
-    {
-      id: 82,
-      name: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL',
-      nominal: 'Сенсорный',
-      price: 133.00,
-      description: `
+    picPath: '../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH1000 PRO лучшего качества'
+  },
+  // Терморегулятор WÄRMEHAUS WH900 DIGITAL
+  {
+    id: 82,
+    name: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL',
+    nominal: 'Сенсорный',
+    price: 133.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
           Описание
         </h4>
         <div class="container text">
-        <i>Терморегулятор WÄRMEHAUS DIGITAL WH900 Используется для постоянного поддержания комфортного теплого пола в течении суток. Информативный LED индикатор состояний.</i>
-      
+        <i>Терморегулятор WÄRMEHAUS DIGITAL WH900 Используется для постоянного
+        поддержания комфортного теплого пола в течении суток. Информативный LED индикатор состояний.</i>
         <style>
         li{
           text-align: left;
         }
         </style>
-      
         <ul>
           <li>
           Полуавтоматический сенсорный цифровой терморегулятор для "Теплого пола".
@@ -1155,7 +1144,15 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Задержка включения нагрузки (Полуавтоматический режим) от 0,5 до 99 часов.
           </li>
           <li>
-          Этот режим помогает существенно экономить электроэнергию. Вы сможете одним прикосновением прекратить нагрев на определенное время - от получаса до 99 часов. При этом прибор автоматически включит теплый пол по истечению заданного времени. Этот режим удобен, например, для временного отключения теплого пола пока Вы на работе или на ночь пока Вы спите. Удобство заключается в том, что Вам не понадобится включать нагрев по приходе с работы или утром, после сна. Прибор включит теплый пол автоматически, по завершении цикла задержки включения. Рекомендуем устанавливать задержку на 7-9 часов, в зависимости от продолжительности Вашего рабочего дня или ночного сна. Также в случае падения температуры ниже 5С прибор автоматически активирует режим "АНТИЗАМЕРЗАНИЯ", т.е. температура в помещении не опустится ниже 5С.
+          Этот режим помогает существенно экономить электроэнергию.
+          Вы сможете одним прикосновением прекратить нагрев на определенное время - от получаса до 99 часов.
+          При этом прибор автоматически включит теплый пол по истечению заданного времени. Этот режим удобен,
+          например, для временного отключения теплого пола пока Вы на работе или на ночь пока Вы спите.
+          Удобство заключается в том, что Вам не понадобится включать нагрев по приходе с работы или утром,
+          после сна. Прибор включит теплый пол автоматически, по завершении цикла задержки включения.
+          Рекомендуем устанавливать задержку на 7-9 часов, в зависимости от продолжительности Вашего
+          рабочего дня или ночного сна. Также в случае падения температуры ниже 5С прибор автоматически
+          активирует режим "АНТИЗАМЕРЗАНИЯ", т.е. температура в помещении не опустится ниже 5С.
           </li>
           <li>
           Индикация нагрева.
@@ -1194,7 +1191,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -1249,51 +1245,166 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP21
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Альпийский белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/69694f87333efce45102c09a29cf00a7.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/d15ff9d954aaf8e8e2e8f15857334bb9.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-  
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/Thermostat WH900NEW.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"  alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
+        <img src="../../assets/images/termostats/touchscreenWH900Digital/69694f87333efce45102c09a29cf00a7.jpg"
+        style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+        <img src="../../assets/images/termostats/touchscreenWH900Digital/d15ff9d954aaf8e8e2e8f15857334bb9.jpg"
+        style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+        <img src="../../assets/images/termostats/touchscreenWH900Digital/Thermostat WH900NEW.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу"
-    },
-    // Терморегулятор WÄRMEHAUS WH300 WI-FI TODO: To fill
-    { id: 83, name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI', nominal: 'WI-FI', price: 418.00, description: "", picPath: "", picAlt: "Some Alt" },
-    // Терморегулятор WÄRMEHAUS WH800 BASIC
-    {
-      id: 84,
-      name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
-      nominal: 'Аналоговый',
-      price: 105.00,
-      description: `
+    picPath: '../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу'
+  },
+  // Терморегулятор WÄRMEHAUS WH300 WI-FI
+  {
+    id: 83,
+    name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI',
+    nominal: 'WI-FI',
+    price: 418.00, description: `
+    <div>
+    <hr>
+        <h4 align="center">
+        Описание
+      </h4>
+      <div class="container text">
+      <i>Терморегулятор WÄRMEHAUS WH300 WIFI Используется для поддержания комфортного
+       теплого пола в течении суток. Информативный LED индикатор состояний.</i>
+      <style>
+      li{
+        text-align: left;
+      }
+      </style>
+      <ul>
+	          <li>Программируемый сенсорный цифровой терморегулятор для "Теплого пола".</li>
+	          <li><strong>Удобное управление терморегулятором прямо с телефона или из браузера.</strong></li>
+            <li>Цифровое управление теплом.</li>
+            <li>Полностью программируемый прибор с недельным управлением.</li>
+            <li>Вы сможете одним прикосновением к экрану своего смартфона прекратить нагрев
+            на определенное время или выключить полностью. Задать время старта.
+            При этом прибор автоматически включит теплый пол по истечению заданного времени.
+            Этот режим удобен, например, тогда когда вы уезжаете в отпуск и точно знаете когда
+            возвращаетесь домой. А пока Вы на работе или на ночь, можно воспользоваться программой
+            которая автоматически будет поддерживать комфортную температуру. Удобство заключается
+            в том, что Вам не понадобится включать нагрев по приходе с работы или утром, после сна.
+            Прибор включит теплый пол автоматически, когда вы проснулись и выключит когда вы уходите из дома.
+            Рекомендуем устанавливать температуру в отсутствии вас дома на 2-4 градуса ниже чем
+            комфортная температура в остальное время, пока вы бодрствуете и находитесь дома.</li>
+            <li>Редактирование программ происходит очень просто и уже через несколько секунд
+            прибор получает новые заданные установки. Управление прибором осуществляется из
+            любой точки Мира где есть интернет.</li>
+            <li>Если сеть WiFi в доме где установлен прибор пропадет по каким либо причинам,
+            термостат WÄRMEHAUS WH300 WIFI продолжит свою работу по установленной программе а
+             как только сеть появится он получит новую задачу если вы что либо меняли в программе.</li>
+            <li>Индикация нагрева:</li>
+            <li>LED индикатор состояния :&nbsp; Красный в режиме нагрева.</li>
+            <li>LED индикатор сети WIFI : &nbsp; Синий в режиме поиска сети и индикации состояния прибора.</li>
+            <li>Высококонтрастный Сегментный LED&nbsp; индикатор белого цвета с функцией затухания яркости.</li>
+            <li>Тонкая установочная часть, всего 24мм.</li>
+            <li>Функция самодиагностики.</li>
+            <li>Термозащита. Встроенная защита прибора от перегрева.</li>
+            <li>Режим регулировки мощности таймером при работе без датчика температуры.</li>
+            <li>Возможность выбора номинала датчика, эта функция полезна когда вы меняете
+            прибор любого другого производителя а заменить выносной датчик не представляется
+            возможным,. Просто заменяете прибор а старый датчик оставляете на месте, в&nbsp;
+            приборе WÄRMEHAUS WH300 WIFI просто выбираете тот датчик который необходим.</li>
+            <li>Нагрузка до 16А.</li>
+            <li>Прибор совместим с рамками <span style="color: rgb(178, 34, 34); --darkreader-inline-color:#ffb0b0;
+            " data-darkreader-inline-color="">Schneider серия Unica, Simon серия 27 Neos.</span></li>
+            <li>Все приборы WÄRMEHAUS PREMIUM обеспеченны полноценной трехлетней гарантией,
+            инструкцией включительно на русском языке и сервисной поддержкой.</li>
+            <li>Гарантия - 3 года.</li>
+          </ul>
+
+      <hr>
+      <h4 align="center">
+        Технические данные
+      </h4>
+      <ul>
+	<li><span dir="rtl">Пределы регулирования...&nbsp;&nbsp; +5...+40<sup>о</sup>С </span></li>
+  <li><span dir="rtl">Точность измерения температуры...&nbsp;&nbsp;
+  0,1</span><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></li>
+  <li><span dir="rtl">Точность выставляемой температуры...&nbsp;&nbsp;
+  1</span><span dir="rtl"><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></span></li>
+	<li><span dir="rtl">Максимальная мощность нагрузки...&nbsp;&nbsp; 3600W</span></li>
+	<li><span dir="rtl">Номинальная <strong>долговременная мощность нагрузки*</strong>...&nbsp;&nbsp; 3000W</span></li>
+	<li><span dir="rtl">Максимальный ток нагрузки...&nbsp;&nbsp; 16А</span></li>
+	<li><span dir="rtl">Номинальный долговременный ток нагрузки....&nbsp; 13,5А</span></li>
+	<li><span dir="rtl">Напряжение питания...&nbsp;&nbsp; 230V +10%...- 10%</span></li>
+	<li><span dir="rtl">Масса в полной комплектации...&nbsp;&nbsp; 0,18кг</span></li>
+	<li><span dir="rtl">Основные габаритные размеры...&nbsp;&nbsp; 85х80х38</span></li>
+	<li>Глубина установки... 24мм</li>
+	<li>При скрытом монтаже стандартная монтажная коробка Ø64мм, глубина 40мм</li>
+	<li>При наружном монтаже установка в проставочный адаптер (не поставляется в комплекте), приобретается отдельно.</li>
+	<li><span dir="rtl">Датчик температуры внешний 3м. (Аналоговый)</span></li>
+	<li><span dir="rtl">Температурный гистерезис 1</span><sup><span dir="rtl">о</span></sup><span dir="rtl">С</span></li>
+	<li><span dir="rtl">Степень защиты...&nbsp;&nbsp; IP20</span></li>
+</ul>
+*Не рекомендуется использование долговременной нагрузки свыше номинальной.
+При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+
+<p>Терморегулятор совместим с рамками Schneider серия Unica, Simon серия 27 Neos.</p>
+        </div>
+      <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+      alt="Совместимость регулятора с другими системами">
+      <hr>
+      </div>
+        <h4 align="center">
+        Цветовая палитра
+      </h4>
+      <p align="center">
+        <i>Белый / Слоновая кость</i>
+      </p>
+      <div id="container" align="center" class="imageCont">
+
+      <img src="../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg"
+       style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+       alt="Терморегулятор теплый пол wifi Белый">
+      <img src="../../assets/images/termostats/wi-fiWH300WIFI/0c2e17c9a1f5d0c869ce2dff1009050a.jpg"
+      style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+      alt="Терморегулятор теплый пол вайфай Слоновая кость">
+
+      </div>
+      <hr>
+      </div>
+    `,
+    picPath: '../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg',
+    picAlt: 'Тепморегулятор WI-FI WH300WIFI для теплого пола в Минске.'
+  },
+  // Терморегулятор WÄRMEHAUS WH800 BASIC
+  {
+    id: 84,
+    name: 'Терморегулятор WÄRMEHAUS WH800 BASIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
           Описание
         </h4>
         <div class="container text">
-        <i>Терморегулятор WÄRMEHAUS WH800 Используется для постоянного поддержания комфортного теплого пола в течении суток. Управление в одно движение.</i>
-      
+        <i>Терморегулятор WÄRMEHAUS WH800 Используется для постоянного поддержания комфортного теплого пола в течении суток.
+        Управление в одно движение.</i>
         <style>
         li{
           text-align: left;
@@ -1340,7 +1451,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           Гарантия - 3 года.
           </li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -1395,44 +1505,49 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
             Степень защиты...   IP20
             </li>
           </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH800Basic/frames WARMEHAUS WH1000 2 s40.jpg" alt="Совместимость регулятора с другими системами">
+        <img src="../../assets/images/termostats/analogWH800Basic/frames WARMEHAUS WH1000 2 s40.jpg"
+        alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/analogWH800Basic/6f507faf740c4999c67b71cfad220a16.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH800Basic/2307bd7ff938c2039f8264ff9a1a1e8c.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-  
-        <img src="../../assets/images/termostats/analogWH800Basic/0e789451028da56e9fa0eeeda3183112.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px" alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
-        <img src="../../assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"  alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
+        <img src="../../assets/images/termostats/analogWH800Basic/6f507faf740c4999c67b71cfad220a16.jpg"
+        style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+        <img src="../../assets/images/termostats/analogWH800Basic/2307bd7ff938c2039f8264ff9a1a1e8c.jpg"
+        style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+        <img src="../../assets/images/termostats/analogWH800Basic/0e789451028da56e9fa0eeeda3183112.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
+        <img src="../../assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый"
-    },
-    // Терморегулятор WÄRMEHAUS WH700 CLASSIC
-    {
-      id: 85,
-      name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
-      nominal: 'Аналоговый',
-      price: 105.00,
-      description: `
+    picPath: '../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый'
+  },
+  // Терморегулятор WÄRMEHAUS WH700 CLASSIC
+  {
+    id: 85,
+    name: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC',
+    nominal: 'Аналоговый',
+    price: 105.00,
+    description: `
       <div>
       <hr>
           <h4 align="center">
@@ -1440,7 +1555,6 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         </h4>
         <div class="container text">
         <i>Терморегулятор WÄRMEHAUS WH700 Используется для постоянного поддержания комфортного теплого пола.</i>
-      
         <style>
         li{
           text-align: left;
@@ -1459,10 +1573,10 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <li>Термозащита. Встроенная защита прибора от перегрева.</li>
         <li>Нагрузка до 16А.</li>
         <li>Прибор совместим с рамками Schneider серия Unica, Simon серия 27 Neos.</li>
-        <li>Все приборы Wärmehaus PREMIUM обеспеченны полноценной трехлетней гарантией, инструкцией на русском языке и сервисной поддержкой.</li>
+        <li>Все приборы Wärmehaus PREMIUM обеспеченны полноценной трехлетней гарантией,
+        инструкцией на русском языке и сервисной поддержкой.</li>
         <li>Гарантия - 3 года.</li>
         </ul>
-  
         <hr>
         <h4 align="center">
           Технические данные
@@ -1485,34 +1599,38 @@ export var ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
       <li>Температурный гистерезис 1<sup>о</sup>С</li>
       <li>Степень защиты... IP20</li>
   </ul>
-          *Не рекомендуется использование долговременной нагрузки свыше номинальной. При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
+          *Не рекомендуется использование долговременной нагрузки свыше номинальной.
+          При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
         <hr>
         </div>
-      
           <h4 align="center">
           Цветовая палитра
         </h4>
-      
         <p align="center">
           <i>Белый / Слоновая кость</i>
         </p>
-        
         <div id="container" align="center" class="imageCont">
-  
-        <img src="../../assets/images/termostats/analogWH700Classic/a5d82f3e6f2c598c31f1d05f3e1b0455.jpg" style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH700Classic/df1f17e39a8e2c4e3f043426d3cfdbc0.jpg" style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px" alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-  
-        <img src="../../assets/images/termostats/analogWH700Classic/9b114f8623a0d6ce11f43b6bfe67a567.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px" alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px" alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
-        <img src="../../assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg" style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"  alt="Терморегулятор теплый пол сенсорный белый упаковка">
-  
+        <img src="../../assets/images/termostats/analogWH700Classic/a5d82f3e6f2c598c31f1d05f3e1b0455.jpg"
+        style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Альпийский белый">
+        <img src="../../assets/images/termostats/analogWH700Classic/df1f17e39a8e2c4e3f043426d3cfdbc0.jpg"
+        style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
+        alt="Терморегулятор теплый пол аналоговый Слоновая кость">
+        <img src="../../assets/images/termostats/analogWH700Classic/9b114f8623a0d6ce11f43b6bfe67a567.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px"
+        alt="Терморегулятор теплый пол сенсорный белый">
+        <img src="../../assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
+        <img src="../../assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg"
+        style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
+        alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-      picPath: "../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg",
-      picAlt: "Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой"
-    },
-  ];
+    picPath: '../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg',
+    picAlt: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой'
+  },
+];
