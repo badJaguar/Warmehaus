@@ -1,4 +1,5 @@
-import { ICab11WThin } from 'src/models/cab-11w-thin';
+import { ICab11WThin } from "src/models/cab-11w-thin";
+
 
 export let ELEMENT_DATA_MAT_CAB_11W_THIN: ICab11WThin[] = [
     { id: 31, name: 'Двужильный WÄRMEHAUS CAB 11W Thin', nominal: '10,0м2 - 112W', price: 133.00 },
