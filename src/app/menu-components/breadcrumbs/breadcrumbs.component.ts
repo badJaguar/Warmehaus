@@ -30,6 +30,7 @@ export class BreadcrumbsComponent implements OnInit {
         this.breadcrumbList.length = 0;
 
         routerList = routerUrl.slice(1).split('/');
+        // tslint:disable-next-line:no-shadowed-variable
         routerList.forEach(( router, index) => {
 
           target = target.find(page => page.path.slice(2) === router);
