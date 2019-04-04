@@ -11,7 +11,7 @@ export class MainPageComponent implements OnInit {
   tiles: ITile[] = [
     {
       route: '#',
-      picUrl: '../../assets/images/gridPics/grid-1-web.jpg',
+      picUrl: '../../assets/images/gridPics/grid-1-web.png',
       cols: 4,
       rows: 2,
       alt: 'Теплые полы в Минске'
