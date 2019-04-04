@@ -10,7 +10,7 @@ import {MatBottomSheet} from '@angular/material';
 
 export class MenuComponent implements OnInit {
 
-brand = 'images/logo2.png';
+brand = 'assets/images/logo2.png';
 
   constructor(private bottomSheet: MatBottomSheet) {}
 
