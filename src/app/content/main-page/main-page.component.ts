@@ -17,9 +17,8 @@ export class MainPageComponent implements OnInit {
       alt: 'Теплые полы в Минске'
     },
     {
-      route:
-        '/warmehaus/mat-160W', picUrl:
-        'assets/images/gridPics/Нагревательный_Мат_160Вт.png',
+      route: '/warmehaus/mat-160W',
+      picUrl: 'assets/images/gridPics/Нагревательный_Мат_160Вт.png',
       cols: 2,
       rows: 1,
       alt: 'Нагревательный мат 160 Вт'
