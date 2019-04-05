@@ -7,7 +7,7 @@ import { ITile } from 'src/models/tiles';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit {
-
+  breakpoint: number;
   tiles: ITile[] = [
     {
       route: '#',
@@ -74,9 +74,22 @@ export class MainPageComponent implements OnInit {
       alt: 'Терморегуляторы'
     },
   ];
-  constructor() { }
-
   ngOnInit() {
+    if (window.innerWidth >= 360) {
+      this.tiles[0].cols = 4;
+      this.tiles[0].rows = 2;
+    }
+    this.breakpoint = (window.innerWidth <= 360) ? 2 : 4;
   }
 
-}
+  onResize(event) {
+    this.breakpoint = (event.target.innerWidth <= 360) ? 2 : 4;
+    if (event.target.innerWidth <= 360) {
+      this.tiles[0].cols = 2;
+      this.tiles[0].rows = 1;
+    } else {
+      this.tiles[0].cols = 4;
+      this.tiles[0].rows = 2;
+      }
+    }
+  }
