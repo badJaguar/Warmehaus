@@ -75,16 +75,19 @@ export class MainPageComponent implements OnInit {
     },
   ];
   ngOnInit() {
-    if (window.innerWidth >= 360) {
+    if (window.innerWidth >= 416) {
       this.tiles[0].cols = 4;
       this.tiles[0].rows = 2;
-    }
-    this.breakpoint = (window.innerWidth <= 360) ? 2 : 4;
+    } else {
+      this.tiles[0].cols = 2;
+      this.tiles[0].rows = 1;
+      }
+    this.breakpoint = (window.innerWidth <= 416) ? 2 : 4;
   }
 
   onResize(event) {
-    this.breakpoint = (event.target.innerWidth <= 360) ? 2 : 4;
-    if (event.target.innerWidth <= 360) {
+    this.breakpoint = (event.target.innerWidth <= 416) ? 2 : 4;
+    if (event.target.innerWidth <= 416) {
       this.tiles[0].cols = 2;
       this.tiles[0].rows = 1;
     } else {
