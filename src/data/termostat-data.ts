@@ -159,23 +159,23 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
       <i>Чёрный / Серебро / Белый / Слоновая кость</i>
     </p>
     <div id="container" align="center" class="imageCont">
-    <img src="../../assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg"
+    <img src="assets/images/termostats/touchscreen24to7/25ae2f22e31bdc9ca8194c1ab69f3974.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный черный">
-    <img src="../../assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg"
+    <img src="assets/images/termostats/touchscreen24to7/29e83460023a1240f5acfc0e2937f120.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный слоновая кость">
-    <img src="../../assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg"
+    <img src="assets/images/termostats/touchscreen24to7/631ec501a89798a34414e9d98303edc3.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный белый">
-    <img src="../../assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg "
+    <img src="assets/images/termostats/touchscreen24to7/WH_TS_front_s700.jpg "
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;
     alt="Терморегулятор теплый пол сенсорный белый">
     </div>
     <hr>
     </div>
       `,
-    picPath: '../../assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg',
+    picPath: 'assets/images/termostats/touchscreen24to7/02a94d427c05decb935dfa8f0251c059.jpg',
     picAlt: 'ТЕРМОРЕГУЛЯТОР WÄRMEHAUS TOUCHSCREEN'
   },
   // Терморегулятор WÄRMEHAUS WH100
@@ -295,20 +295,20 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg"
+        <img src="assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH100/4f1f1f1b1d32829a8b8485403cf8e2ef.jpg"
+        <img src="assets/images/termostats/analogWH100/4f1f1f1b1d32829a8b8485403cf8e2ef.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH100/WH100_front_s700.jpg"
+        <img src="assets/images/termostats/analogWH100/WH100_front_s700.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg',
+    picPath: 'assets/images/termostats/analogWH100/5dabfed070c79d60f454568f2a74eb22.jpg',
     picAlt: 'Терморегулятор регулируемый не программируемый (аналоговый)'
   },
   // Терморегулятор WÄRMEHAUS WH200
@@ -431,20 +431,20 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Альпийский белый</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg"
+        <img src="assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH200/f264102ae0357a1b761b197a22b58cde.jpg"
+        <img src="assets/images/termostats/analogWH200/f264102ae0357a1b761b197a22b58cde.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH200/WH200_front_s700.jpg"
+        <img src="assets/images/termostats/analogWH200/WH200_front_s700.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg',
+    picPath: 'assets/images/termostats/analogWH200/c23199a1167b9084c03738ea136ec863.jpg',
     picAlt: 'Терморегулятор регулируемый не программируемый (аналоговый)'
   },
   // Терморегулятор WÄRMEHAUS WH400 PRO
@@ -578,7 +578,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/frames WH600 1 s400.jpg"
+        <img src="assets/images/termostats/touchscreenWH400Pro/frames WH600 1 s400.jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -589,17 +589,17 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH400_s800.jpg"
+        <img src="assets/images/termostats/touchscreenWH400Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH400_s800.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/touchscreenWH400Pro/WH400_front_s700.jpg"
+        <img src="assets/images/termostats/touchscreenWH400Pro/WH400_front_s700.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg',
+    picPath: 'assets/images/termostats/touchscreenWH400Pro/9c611740b299fc0ad5cc52caa701438a.jpg',
     picAlt: 'Терморегулятор сенсорный белый WH400 Pro'
   },
   // Терморегулятор WÄRMEHAUS WH500 PRO
@@ -754,7 +754,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/frames WH600 1 s400(1).jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/frames WH600 1 s400(1).jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -765,22 +765,22 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/798ed46c91bded57ac29d03623b8e0f1.jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/798ed46c91bded57ac29d03623b8e0f1.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный слоновая кость">
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH500_s800.jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH500_s800.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; padding-bottom: 15px"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/touchscreenWH500Pro/WH500_front_s700.jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/WH500_front_s700.jpg"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg',
+    picPath: 'assets/images/termostats/touchscreenWH500Pro/7dde2feaea7027829f0f8f34960bdebb.jpg',
     picAlt: 'Терморегулятор теплый пол сенсорный белый WH 500 Pro'
   },
   // Терморегулятор WÄRMEHAUS WH600 PRO
@@ -909,7 +909,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH600Pro/frames WH600 1 s400(1).jpg"
+        <img src="assets/images/termostats/analogWH600Pro/frames WH600 1 s400(1).jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -920,23 +920,23 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Альпийский белый</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH600Pro/cb7a619d3c125f9ac793b07976574b97.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/cb7a619d3c125f9ac793b07976574b97.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный с подсветкой">
-        <img src="../../assets/images/termostats/analogWH600Pro/33eebdcf9e7d2ae640e4f9bf11a2cfd9.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/33eebdcf9e7d2ae640e4f9bf11a2cfd9.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол аналоговый альпийкий белый">
-        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ ПОЛ THERMOSTAT WARMEHAUS WH600 FRAME ABB GIRA JUNG 3 s400.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ ПОЛ THERMOSTAT WARMEHAUS WH600 FRAME ABB GIRA JUNG 3 s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg',
+    picPath: 'assets/images/termostats/analogWH600Pro/53f99eeb16941dcc56f3ba439444e848.jpg',
     picAlt: 'Терморегулятор WÄRMEHAUS WH600 PRO сенсорный с кнопками'
   },
   // Терморегулятор WÄRMEHAUS WH1000 PRO
@@ -1074,7 +1074,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH1000Pro/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -1085,29 +1085,29 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Альпийский белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg"
         style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH1000Pro/a01266454347a1e78564c26d55fb3bd1.jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/a01266454347a1e78564c26d55fb3bd1.jpg"
         style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-        <img src="../../assets/images/termostats/analogWH1000Pro/8933d2cdd2e3dea8180e3aea9c4cecf6.jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/8933d2cdd2e3dea8180e3aea9c4cecf6.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH1000Pro/47745146e538837899cec8737fe4f408.jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/47745146e538837899cec8737fe4f408.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 253px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="../../assets/images/termostats/analogWH1000Pro/61ee076a4143dee0caae125ddd5151a9.jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/61ee076a4143dee0caae125ddd5151a9.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;  max-height: 420px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="../../assets/images/termostats/analogWH1000Pro/WH1000_front_s800..jpg"
+        <img src="assets/images/termostats/analogWH1000Pro/WH1000_front_s800..jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg',
+    picPath: 'assets/images/termostats/analogWH1000Pro/9e990f49e7769a517f36e8a38a62ccd9.jpg',
     picAlt: 'Терморегулятор WÄRMEHAUS WH1000 PRO лучшего качества'
   },
   // Терморегулятор WÄRMEHAUS WH900 DIGITAL
@@ -1248,7 +1248,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+        <img src="assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -1259,20 +1259,20 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Альпийский белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/69694f87333efce45102c09a29cf00a7.jpg"
+        <img src="assets/images/termostats/touchscreenWH900Digital/69694f87333efce45102c09a29cf00a7.jpg"
         style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/d15ff9d954aaf8e8e2e8f15857334bb9.jpg"
+        <img src="assets/images/termostats/touchscreenWH900Digital/d15ff9d954aaf8e8e2e8f15857334bb9.jpg"
         style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-        <img src="../../assets/images/termostats/touchscreenWH900Digital/Thermostat WH900NEW.jpg"
+        <img src="assets/images/termostats/touchscreenWH900Digital/Thermostat WH900NEW.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg',
+    picPath: 'assets/images/termostats/touchscreenWH900Digital/fb4ecb3b053f98d31a08002badfeb442.jpg',
     picAlt: 'Терморегулятор WÄRMEHAUS WH900 DIGITAL для теплых полов домой и на дачу'
   },
   // Терморегулятор WÄRMEHAUS WH300 WI-FI
@@ -1280,7 +1280,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
     id: 83,
     name: 'Терморегулятор WÄRMEHAUS WH300 WI-FI',
     nominal: 'WI-FI',
-    price: 418.00, description: `
+    price: 266.00, description: `
     <div>
     <hr>
         <h4 align="center">
@@ -1364,7 +1364,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
 
 <p>Терморегулятор совместим с рамками Schneider серия Unica, Simon серия 27 Neos.</p>
         </div>
-      <img src="../../assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
+      <img src="assets/images/termostats/touchscreenWH900Digital/frames WARMEHAUS WH1000 2 s400(2)(1).jpg"
       alt="Совместимость регулятора с другими системами">
       <hr>
       </div>
@@ -1376,10 +1376,10 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
       </p>
       <div id="container" align="center" class="imageCont">
 
-      <img src="../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg"
+      <img src="assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg"
        style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
        alt="Терморегулятор теплый пол wifi Белый">
-      <img src="../../assets/images/termostats/wi-fiWH300WIFI/0c2e17c9a1f5d0c869ce2dff1009050a.jpg"
+      <img src="assets/images/termostats/wi-fiWH300WIFI/0c2e17c9a1f5d0c869ce2dff1009050a.jpg"
       style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
       alt="Терморегулятор теплый пол вайфай Слоновая кость">
 
@@ -1387,7 +1387,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
       <hr>
       </div>
     `,
-    picPath: '../../assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg',
+    picPath: 'assets/images/termostats/wi-fiWH300WIFI/wi-fi-termostat.jpg',
     picAlt: 'Тепморегулятор WI-FI WH300WIFI для теплого пола в Минске.'
   },
   // Терморегулятор WÄRMEHAUS WH800 BASIC
@@ -1508,7 +1508,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="../../assets/images/termostats/analogWH800Basic/frames WARMEHAUS WH1000 2 s40.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/frames WARMEHAUS WH1000 2 s40.jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -1519,26 +1519,26 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH800Basic/6f507faf740c4999c67b71cfad220a16.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/6f507faf740c4999c67b71cfad220a16.jpg"
         style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH800Basic/2307bd7ff938c2039f8264ff9a1a1e8c.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/2307bd7ff938c2039f8264ff9a1a1e8c.jpg"
         style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-        <img src="../../assets/images/termostats/analogWH800Basic/0e789451028da56e9fa0eeeda3183112.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/0e789451028da56e9fa0eeeda3183112.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="../../assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg',
+    picPath: 'assets/images/termostats/analogWH800Basic/95d4d01e3b520027bad3b33c5a331897.jpg',
     picAlt: 'Терморегулятор WÄRMEHAUS WH800 BASIC простой и дешевый'
   },
   // Терморегулятор WÄRMEHAUS WH700 CLASSIC
@@ -1611,26 +1611,26 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый / Слоновая кость</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="../../assets/images/termostats/analogWH700Classic/a5d82f3e6f2c598c31f1d05f3e1b0455.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/a5d82f3e6f2c598c31f1d05f3e1b0455.jpg"
         style="padding-left: 5%; padding-right: 2%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Альпийский белый">
-        <img src="../../assets/images/termostats/analogWH700Classic/df1f17e39a8e2c4e3f043426d3cfdbc0.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/df1f17e39a8e2c4e3f043426d3cfdbc0.jpg"
         style="padding-left: 2%; padding-right: 5%; padding-top:15px; max-height: 240px"
         alt="Терморегулятор теплый пол аналоговый Слоновая кость">
-        <img src="../../assets/images/termostats/analogWH700Classic/9b114f8623a0d6ce11f43b6bfe67a567.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/9b114f8623a0d6ce11f43b6bfe67a567.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 400px"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="../../assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="../../assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: '../../assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg',
+    picPath: 'assets/images/termostats/analogWH700Classic/8160fefcd902745d5205765867e722ec.jpg',
     picAlt: 'Терморегулятор WÄRMEHAUS WH700 CLASSIC не дорогой'
   },
 ];

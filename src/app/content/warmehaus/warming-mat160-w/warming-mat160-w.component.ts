@@ -11,10 +11,10 @@ import { ELEMENT_DATA_MAT_160W } from 'src/data/heating-mat160W-data';
 export class WarmingMat160WComponent implements OnInit {
     displayedColumns: string[] = ['name', 'nominal', 'price'];
     dataSource = new MatTableDataSource(ELEMENT_DATA_MAT_160W);
-  
+
     @ViewChild(MatSort) sort: MatSort;
     @ViewChild(MatPaginator) paginator: MatPaginator;
-  
+
     ngOnInit() {
       this.dataSource.sort = this.sort;
       this.dataSource.paginator = this.paginator;
@@ -23,4 +23,3 @@ export class WarmingMat160WComponent implements OnInit {
       this.dataSource.filter = filterValue.trim().toLowerCase();
     }
   }
-  
