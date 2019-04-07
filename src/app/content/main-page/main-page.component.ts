@@ -60,7 +60,7 @@ export class MainPageComponent implements OnInit {
       alt: 'Инфракрасная пленка'
     },
     {
-      route: 'url',
+      route: '/warmehaus/anti-icing',
       picUrl: 'assets/images/gridPics/Системы_антиобледенения.png',
       cols: 2,
       rows: 1,

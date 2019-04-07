@@ -8,14 +8,14 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AppComponent {
   constructor(private router: Router) { }
+  title = 'Warmehaus';
 
+    // tslint:disable-next-line:use-life-cycle-interface
     ngOnInit() {
         this.router.events.subscribe((evt) => {
             if (!(evt instanceof NavigationEnd)) {
                 return;
             }
-            window.scrollTo(0, 0)
-        });
+            window.scrollTo(0, 0); });
     }
-  title = 'Warmehaus';
 }

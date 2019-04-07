@@ -34,6 +34,7 @@ import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { FilmsComponent } from './content/warmehaus/films/films.component';
 import { ContactsComponent } from './content/contacts/contacts.component';
+import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { ContactsComponent } from './content/contacts/contacts.component';
     TermostatComponent,
     SafeHtmlPipe,
     FilmsComponent,
-    ContactsComponent
+    ContactsComponent,
+    AnitIcingComponent
   ],
   imports: [
     BrowserModule,

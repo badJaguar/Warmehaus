@@ -9,6 +9,7 @@ import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-th
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
 import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { FilmsComponent } from './content/warmehaus/films/films.component';
+import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
 
 const routes: Routes = [
   { path: 'home', component: MainPageComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'cab-20W-uv-protection', component: Cab20WUvComponent},
   {path: 'termostats', component: TermostatComponent},
   {path: 'films', component: FilmsComponent},
+  {path: 'anti-icing', component: AnitIcingComponent},
     ]},
   { path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
