@@ -18,6 +18,7 @@ export class MenuService {
           { name: 'Двужильный CAB 20W UV', path: './cab-20W-uv-protection' },
           { name: 'Терморегуляторы', path: './termostats' },
           { name: 'Инфракрасная плёнка', path: './films' },
+          { name: 'Антиобледенение', path: './anti-icing' },
         ]
       },
     ];
