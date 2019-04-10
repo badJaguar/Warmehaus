@@ -83,7 +83,7 @@ import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.co
     MatChipsModule,
     MatTabsModule,
     ImageViewerModule,
-    ScrollToModule.forRoot()
+    ScrollToModule.forRoot(),
   ],
   entryComponents: [
     PhonesSheetComponent,
@@ -91,4 +91,5 @@ import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.co
   providers: [SafeHtmlPipe],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
