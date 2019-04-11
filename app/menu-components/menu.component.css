@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #ffcb03;
+    max-width: 100%;
+}
+.navbar-item{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+button{
+    margin-left: 20px
+}
+button:focus {
+    outline: none;
+    border: 0;
+ }
+ a:hover {
+     color: black;
+     text-decoration: none
+ }

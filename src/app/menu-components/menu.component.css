@@ -2,12 +2,17 @@
     background-color: #ffcb03;
     max-width: 100%;
 }
+.navbar-menu{
+    width: 60%;
+}
 .navbar-item{
     margin-right: 5px;
     margin-left: 5px;
 }
 button{
-    margin-left: 20px
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center
 }
 button:focus {
     outline: none;

@@ -7,24 +7,16 @@ import { MenuComponent } from './menu-components/menu.component';
 import { FooterComponent } from './menu-components/footer/footer.component';
 import { MainPageComponent } from './content/main-page/main-page.component';
 import { CarouselComponent } from './content/main-page/carousel/carousel.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
-  MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule,
-  MatRippleModule, MatChipsModule, MatTabsModule, MatIconModule, MatDividerModule,
-  MatListModule, MatMenuModule, MatProgressSpinnerModule, MatSnackBarModule,
-  MatDialogModule, MatTooltipModule, MatInputModule, MatFormFieldModule,
-  MatOptionModule, MatAutocompleteModule, MatPaginatorModule, MatSelectModule,
-  MatStepperModule, MatExpansionModule, MatBadgeModule, MatButtonToggleModule,
-  MatDatepickerModule, MatNativeDateModule, MatProgressBarModule, MatRadioModule,
-  MatSidenavModule, MatSlideToggleModule, MatSliderModule, MatTreeModule
-} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
+   MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule,
+   MatRippleModule, MatChipsModule, MatTabsModule} from '@angular/material';
 import { NguCarouselModule } from '@ngu/carousel';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CdkTableModule } from '@angular/cdk/table';
 import { OverlayModule } from '@angular/cdk/overlay';
-// import { MaterialModule } from 'src/modules/material/material.module';
+import { MaterialModule } from 'src/modules/material/material.module';
 import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
 import { ToolbarComponent } from './menu-components/toolbar/toolbar.component';
 import { PhonesSheetComponent } from './menu-components/phones-sheet/phones-sheet.component';
@@ -68,28 +60,11 @@ import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.co
     AnitIcingComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule, MatDividerModule, MatMenuModule,
-    MatButtonModule, MatCheckboxModule, MatProgressSpinnerModule, MatSnackBarModule,
-    MatDialogModule, MatTooltipModule, MatInputModule, MatFormFieldModule, MatOptionModule,
-    MatAutocompleteModule, MatPaginatorModule, MatSelectModule, MatStepperModule,
-    MatListModule,
-    MatExpansionModule,
-    MatBadgeModule,
-    MatButtonToggleModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    MatProgressBarModule,
-    MatRadioModule,
-    MatRippleModule,
-    MatSidenavModule,
-    MatSlideToggleModule,
-    MatSliderModule,
-    MatSortModule,
-    MatTabsModule,
-    MatTreeModule,
+    MatButtonModule,
+    MatCheckboxModule,
     NguCarouselModule,
     FormsModule,
     MatToolbarModule,
@@ -98,7 +73,7 @@ import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.co
     MatGridListModule,
     ReactiveFormsModule,
     HttpClientModule,
-    // MaterialModule,
+    MaterialModule,
     CdkTableModule,
     OverlayModule,
     MatBottomSheetModule,
