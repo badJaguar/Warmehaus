@@ -93,7 +93,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     MatTreeModule,
     ScrollingModule,
     MatBottomSheetModule,
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
