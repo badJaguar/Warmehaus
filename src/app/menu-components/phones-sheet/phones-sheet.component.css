@@ -3,8 +3,7 @@ img {
     -webkit-align-items: center; /* Safari 7.0+ */
     display: inline-flex;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 17%;
 }
 p{
     text-align-last: center;
@@ -13,13 +12,4 @@ p{
 }
 .divider{
     margin-top: 15px
-}
-
-.contacts{
-    margin-left: 25%;
-    margin-right: 25%;
-    display: inline-flex;
-    align-content: center;
-    align-items: center;
-    
 }
