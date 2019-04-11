@@ -288,6 +288,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+@angular/compiler
+MIT
+
 @angular/core
 MIT
 
@@ -304,7 +307,7 @@ MIT
 MIT
 The MIT License
 
-Copyright (c) 2019 Google LLC.
+Copyright (c) 2018 Google LLC.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -329,7 +332,7 @@ THE SOFTWARE.
 MIT
 The MIT License
 
-Copyright (c) 2019 Google LLC.
+Copyright (c) 2018 Google LLC.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
