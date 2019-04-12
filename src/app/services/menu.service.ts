@@ -8,7 +8,7 @@ export class MenuService {
   constructor() { }
   getMenu(): Array<any> {
     const menu = [
-      { name: 'Главная', path: './home', children: [] },
+      { name: 'Главная', path: '', children: [] },
       { name: 'Wärmehaus', path: './warmehaus', children: [
 
           { name: 'Маты 160Вт', path: './mat-160W' },
