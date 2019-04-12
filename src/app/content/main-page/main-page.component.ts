@@ -10,7 +10,7 @@ export class MainPageComponent implements OnInit {
   breakpoint: number;
   tiles: ITile[] = [
     {
-      route: '#',
+      route: '/home',
       picUrl: 'assets/images/gridPics/grid-1-web.jpg',
       cols: 4,
       rows: 2,

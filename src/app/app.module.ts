@@ -46,6 +46,7 @@ import { ContactsComponent } from './content/contacts/contacts.component';
 import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
 import { CdkTreeModule } from '@angular/cdk/tree';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -108,6 +109,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     HttpClientModule,
     CdkTableModule,
     OverlayModule,
+    RouterModule,
     MatBottomSheetModule,
     MatSortModule,
     FlexLayoutModule,

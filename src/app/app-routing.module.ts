@@ -12,20 +12,22 @@ import { FilmsComponent } from './content/warmehaus/films/films.component';
 import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
 
 const routes: Routes = [
-  { path: 'home', component: MainPageComponent},
-  { path: 'warmehaus',
-   component: WarmehausComponent,
+  { path: 'home', component: MainPageComponent },
+  {
+    path: 'warmehaus',
+    component: WarmehausComponent,
     children: [
-  {path: 'mat-160W', component: WarmingMat160WComponent},
-  {path: 'mat-200W', component: WarmingMat200WComponent},
-  {path: 'cab-11W-thin', component: Cab11WThinComponent},
-  {path: 'cab-14W-thin', component: Cab14WThinComponent},
-  {path: 'cab-20W-uv-protection', component: Cab20WUvComponent},
-  {path: 'termostats', component: TermostatComponent},
-  {path: 'films', component: FilmsComponent},
-  {path: 'anti-icing', component: AnitIcingComponent},
-    ]},
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
+      { path: 'mat-160W', component: WarmingMat160WComponent },
+      { path: 'mat-200W', component: WarmingMat200WComponent },
+      { path: 'cab-11W-thin', component: Cab11WThinComponent },
+      { path: 'cab-14W-thin', component: Cab14WThinComponent },
+      { path: 'cab-20W-uv-protection', component: Cab20WUvComponent },
+      { path: 'termostats', component: TermostatComponent },
+      { path: 'films', component: FilmsComponent },
+      { path: 'anti-icing', component: AnitIcingComponent },
+    ]
+  },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 @NgModule({
