@@ -47,6 +47,7 @@ import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.co
 import { CdkTreeModule } from '@angular/cdk/tree';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { RouterModule } from '@angular/router';
+import { WarmehausModule } from './content/warmehaus/warmehaus.module';
 
 @NgModule({
   declarations: [
@@ -112,6 +113,7 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     MatBottomSheetModule,
     MatSortModule,
+    WarmehausModule,
     FlexLayoutModule,
     MatRippleModule,
     MatChipsModule,
