@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { WarmehausComponent } from './warmehaus.component';
 
 const routes: Routes = [
-    {path: '/warmehaus', component: WarmehausComponent},
+    {path: 'warmehaus', component: WarmehausComponent},
     // {path: '/warmehaus/mat-200W'},
     // {path: '/warmehaus/cab-11W-thin'},
     // {path: '/warmehaus/cab-14W-thin'},
