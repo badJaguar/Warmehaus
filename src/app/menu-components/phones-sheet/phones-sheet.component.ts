@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { MatBottomSheetRef } from '@angular/material';
 
 @Component({
@@ -7,14 +7,21 @@ import { MatBottomSheetRef } from '@angular/material';
   styleUrls: ['./phones-sheet.component.css']
 })
 export class PhonesSheetComponent implements OnInit {
+  mobile: boolean;
+  disableClose: boolean | undefined;
 
   constructor(private bottomSheetRef: MatBottomSheetRef<PhonesSheetComponent>) {}
-
-  openLink(event: MouseEvent): void {
+  // This function prohibits to close wimdow. Allows to close it by click outside the window.
+  // @HostListener('window:keyup.esc') onKeyUp() {
+  //   this.bottomSheetRef.dismiss();
+  // }
+  openLink(): void {
     this.bottomSheetRef.dismiss();
-    event.preventDefault();
   }
 
   ngOnInit() {
+    if (window.screen.width < 1024) {
+      this.mobile = true;
+    }
   }
 }

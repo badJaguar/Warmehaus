@@ -21,22 +21,26 @@
   </span>
 
   <span class="call">
-    
-      <mat-divider class="divider"></mat-divider>
-    <p >Позвонить:</p>
+
+    <mat-divider class="divider"></mat-divider>
+
+    <p>Позвонить:</p>
+    <p>
+      <span *ngIf="mobile" (click)="showHide = !showMap">Удерживайте номер, чтобы позвонить.</span>
+    </p>
   </span>
 
-  <a mat-list-item (click)="openLink($event)">
+  <a mat-list-item href="tel:+375-29-352-32-04" (click)="openLink()">
     <img src="assets/images/velcom_logo.png" alt="Телефон вармхауз Минск" height="42" width="42">
     <span mat-line>
-      <a href="tel:+375293523204">+375 (29) 352-32-04</a>
+      <a>+375 (29) 352-32-04</a>
     </span>
   </a>
 
-  <a mat-list-item (click)="openLink($event)">
+  <a mat-list-item href="tel:+375-29-557-59-80" (click)="openLink()">
     <img src="assets/images/iOS-logo-300x300.png" alt="Телефон вармхаус Минск" height="42" width="42">
     <span mat-line>
-      <a href="tel:+375295575980">+375 (29) 557-59-80</a>
+      <a>+375 (29) 557-59-80</a>
     </span>
   </a>
 </mat-nav-list>
