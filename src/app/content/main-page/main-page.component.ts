@@ -54,7 +54,7 @@ export class MainPageComponent implements OnInit {
     },
     {
       route: '/warmehaus/films',
-      picUrl: 'assets/images/gridPics/Инфракрасная_Плёнка.png',
+      picUrl: 'assets/images/gridPics/Infrakrasnaya_Plyonka.png',
       cols: 2,
       rows: 1,
       alt: 'Инфракрасная пленка'
