@@ -578,7 +578,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="assets/images/termostats/touchscreenWH400Pro/frames WH600 1 s400.jpg"
+        <img src="assets/images/termostats/touchscreenWH400Pro/frames-WH600-1-s400.jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -589,7 +589,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           <i>Белый</i>
         </p>
         <div id="container" align="center" class="imageCont">
-        <img src="assets/images/termostats/touchscreenWH400Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH400_s800.jpg"
+        <img src="assets/images/termostats/touchscreenWH400Pro/WARM_FLOOR_TERMOSTAT_WARMEHAUS_WH400_s800.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
         <img src="assets/images/termostats/touchscreenWH400Pro/WH400_front_s700.jpg"
@@ -754,7 +754,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="assets/images/termostats/touchscreenWH500Pro/frames WH600 1 s400(1).jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/frames-WH600-1-s400.jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
@@ -771,7 +771,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <img src="assets/images/termostats/touchscreenWH500Pro/798ed46c91bded57ac29d03623b8e0f1.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный слоновая кость">
-        <img src="assets/images/termostats/touchscreenWH500Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH500_s800.jpg"
+        <img src="assets/images/termostats/touchscreenWH500Pro/WARM_FLOOR_TERMOSTAT_WARMEHAUS_WH500_s800.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; padding-bottom: 15px"
         alt="Терморегулятор теплый пол сенсорный белый">
         <img src="assets/images/termostats/touchscreenWH500Pro/WH500_front_s700.jpg"
@@ -909,7 +909,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
           *Не рекомендуется использование долговременной нагрузки свыше номинальной.
           При подключении долговременной нагрузки свыше 3000 Вт рекомендуется использование внешнего контактора.
           </div>
-        <img src="assets/images/termostats/analogWH600Pro/frames WH600 1 s400(1).jpg"
+        <img src="assets/images/termostats/analogWH600Pro/frames-WH600-1-s400.jpg"
         alt="Совместимость регулятора с другими системами">
         <hr>
         </div>
