@@ -41,17 +41,17 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
     <img src="assets/images/anti-icing/SELFREG 30/454abae29581bb5f51b38334967cd1d3.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный слоновая кость">
-    <img src="assets/images/anti-icing/SELFREG 30/23d42ebd69420e1afd5480fef4c64525.jpg"
+    <img src="assets/images/anti-icing/SELFREG 30/iced-roof.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный белый">
-    <img src="assets/images/anti-icing/SELFREG 30/SELFREG 30-2-AO.png "
+    <img src="assets/images/anti-icing/SELFREG 30/SELFREG_30-2-AO.png "
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;
     alt="Терморегулятор теплый пол сенсорный белый">
     </div>
     <hr>
     </div>
       `,
-    picPath: 'assets/images/anti-icing/SELFREG 30/SELFREG 30-2-AO.png',
+    picPath: 'assets/images/anti-icing/SELFREG 30/SELFREG_30-2-AO.png',
     picAlt: 'Кабель антиобледенения и топки снега'
   },
   // Подогрев желобов WÄRMEHAUS SELFREG 40W
@@ -93,17 +93,17 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
     <img src="assets/images/anti-icing/SELFREG 30/454abae29581bb5f51b38334967cd1d3.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный слоновая кость">
-    <img src="assets/images/anti-icing/SELFREG 30/23d42ebd69420e1afd5480fef4c64525.jpg"
+    <img src="assets/images/anti-icing/SELFREG 30/iced-roof.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Терморегулятор теплый пол сенсорный белый">
-    <img src="assets/images/anti-icing/SELFREG 30/SELFREG 30-2-AO.png "
+    <img src="assets/images/anti-icing/SELFREG 30/SELFREG_30-2-AO.png "
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;
     alt="Терморегулятор теплый пол сенсорный белый">
     </div>
     <hr>
     </div>
       `,
-    picPath: 'assets/images/anti-icing/SELFREG 30/SELFREG 30-2-AO.png',
+    picPath: 'assets/images/anti-icing/SELFREG 30/SELFREG_30-2-AO.png',
     picAlt: 'Кабель антиобледенения и топки снега'
   },
   // Датчик грунта WÄRMEHAUS ETOG
@@ -138,7 +138,7 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
       Фотографии
     </h4>
     <div id="container" align="center" class="imageCont">
-    <img src="assets/images/anti-icing/WÄRMEHAUS ETOG/ETOG 55.jpg"
+    <img src="assets/images/anti-icing/WÄRMEHAUS ETOG/ETOG_55.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Датчик температуры и влажности почвы">
     <img src="assets/images/anti-icing/WÄRMEHAUS ETOG/f3d266328bb2ffd241bc00e7a22f04c7.jpg"
@@ -154,7 +154,7 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
     <hr>
     </div>
       `,
-    picPath: 'assets/images/anti-icing/WÄRMEHAUS ETOG/ETOG 55.jpg',
+    picPath: 'assets/images/anti-icing/WÄRMEHAUS ETOG/ETOG_55.jpg',
     picAlt: 'Датчик температуры и влажности WÄRMEHAUS ETOG'
   },
   // Датчик влажности WÄRMEHAUS ETOR
@@ -192,14 +192,14 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
       Фотографии
     </h4>
     <div id="container" align="center" class="imageCont">
-    <img src="assets/images/anti-icing/WÄRMEHAUS ETOR/Датчик влаги WÄRMEHAUS ETOR.jpg"
+    <img src="assets/images/anti-icing/WÄRMEHAUS ETOR/Moisture_Sensor_WÄRMEHAUS_ETOR.jpg"
     style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
     alt="Датчик снеготаяния - антиобледенения">
     </div>
     <hr>
     </div>
       `,
-    picPath: 'assets/images/anti-icing/WÄRMEHAUS ETOR/Датчик влаги WÄRMEHAUS ETOR.jpg',
+    picPath: 'assets/images/anti-icing/WÄRMEHAUS ETOR/Moisture_Sensor_WÄRMEHAUS_ETOR.jpg',
     picAlt: 'Датчик снеготаяния - антиобледенения WÄRMEHAUS ETOR'
   },
   // Терморегулятор WÄRMEHAUS ETO2
@@ -308,13 +308,13 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
          Фотографии
         </h4>
         <div id="container" align="center" class="imageCont">
-        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/cb0a6eec2943f768fcadffa22dcfcaf9.jpg"
+        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/WARMEHAUS_ETO2.jpg"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         <hr>
         </div>
       `,
-    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_ETO2.jpg',
+    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/WARMEHAUS_ETO2_Main.jpg.jpg',
     picAlt: 'Терморегулятор снеготаяния - антиобледенения WÄRMEHAUS ETO2'
   },
   // Терморегулятор WÄRMEHAUS ETR2
@@ -393,12 +393,12 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
          Фотографии
         </h4>
         <div id="container" align="center" class="imageCont">
-        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETR2/978c36fc4db9da5352b3e11552f06146.jpg"
+        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETR2/WARMEHAUS_ETR2.jpg"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         </div>
       `,
-    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETR2/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_ETR2.jpg',
+    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETR2/WARMEHAUS_ETR2_Main.jpg',
     picAlt: 'Терморегулятор снеготаяния - антиобледенения WÄRMEHAUS ETR2'
   },
   // Терморегулятор WÄRMEHAUS ETR/F
@@ -473,12 +473,12 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
          Фотографии
         </h4>
         <div id="container" align="center" class="imageCont">
-        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETRF/84ceeeb3f5123b449e1afc29effdc40b.jpg"
+        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETRF/WARMEHAUS_ETR_F.jpg"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         </div>
       `,
-    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETRF/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_ETR_F.jpg',
+    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETRF/WARMEHAUS_ETR_F_Main.jpg',
     picAlt: 'Терморегулятор снеготаяния - антиобледенения WÄRMEHAUS ETRF'
   },
   // Терморегулятор WÄRMEHAUS ETN4
@@ -559,12 +559,12 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
          Фотографии
         </h4>
         <div id="container" align="center" class="imageCont">
-        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETN4/6d903bacb388b206a7d1f931d2b469e6.jpg"
+        <img src="assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETN4/WARMEHAUS_ETN4.jpg"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
         </div>
       `,
-    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETN4/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_ETN.jpg',
+    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETN4/WARMEHAUS_ETN4_Main.jpg',
     picAlt: 'Терморегулятор снеготаяния - антиобледенения WÄRMEHAUS ETN4'
   }
 ];
