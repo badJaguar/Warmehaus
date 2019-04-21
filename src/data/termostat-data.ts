@@ -926,10 +926,10 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <img src="assets/images/termostats/analogWH600Pro/33eebdcf9e7d2ae640e4f9bf11a2cfd9.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол аналоговый альпийкий белый">
-        <img src="assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ ПОЛ THERMOSTAT WARMEHAUS WH600 FRAME ABB GIRA JUNG 3 s400.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/WARM_FLOOR_WARMEHAUS_WH600_FRAME_ABB_GIRA_JUNG_3_s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="assets/images/termostats/analogWH600Pro/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/WARM_FLOOR_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
