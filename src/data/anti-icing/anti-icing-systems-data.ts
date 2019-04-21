@@ -314,7 +314,7 @@ export let ELEMENT_ANTI_ICING_SYSTEMS_DATA: IAntiIcingSystems[] = [
         <hr>
         </div>
       `,
-    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/WARMEHAUS_ETO2_Main.jpg.jpg',
+    picPath: 'assets/images/anti-icing/outdoor-termostats/WÄRMEHAUS ETO2/WARMEHAUS_ETO2_Main.jpg',
     picAlt: 'Терморегулятор снеготаяния - антиобледенения WÄRMEHAUS ETO2'
   },
   // Терморегулятор WÄRMEHAUS ETR2
