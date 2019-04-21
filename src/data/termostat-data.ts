@@ -929,7 +929,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <img src="assets/images/termostats/analogWH600Pro/WARM_FLOOR_WARMEHAUS_WH600_FRAME_ABB_GIRA_JUNG_3_s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый">
-        <img src="assets/images/termostats/analogWH600Pro/WARM_FLOOR_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_WH600_3_s400.jpg"
+        <img src="assets/images/termostats/analogWH600Pro/WARM_FLOOR_TERMOSTAT_WARMEHAUS_WH600_3_s400.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px;"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
@@ -1531,7 +1531,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <img src="assets/images/termostats/analogWH800Basic/fa54305814ef162e752c6ca9d462f19c.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="assets/images/termostats/analogWH800Basic/ТЕПЛЫЙ_ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_800_2_s10001.jpg"
+        <img src="assets/images/termostats/analogWH800Basic/WARM_FLOOR_TERMOSTAT_WARMEHAUS_800_2_s10001.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
@@ -1623,7 +1623,7 @@ export let ELEMENT_DATA_TERMOSTATS: ITermostat[] = [
         <img src="assets/images/termostats/analogWH700Classic/ff03f0444a9ade882550abcf63d24765.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 420px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
-        <img src="assets/images/termostats/analogWH700Classic/ТЕПЛЫЙ ПОЛ_ТЕРМОРЕГУЛЯТОР_WARMEHAUS_CLASSIC WH700_s10001.jpg"
+        <img src="assets/images/termostats/analogWH700Classic/WARM_FLOOR_TERMOSTAT_WARMEHAUS_CLASSIC WH700_s10001.jpg"
         style="padding-left: 5%; padding-right: 5%; padding-top:15px; max-height: 680px"
         alt="Терморегулятор теплый пол сенсорный белый упаковка">
         </div>
