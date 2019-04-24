@@ -1,52 +1,51 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { CdkTableModule } from '@angular/cdk/table';
+import { CdkTreeModule } from '@angular/cdk/tree';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {
+  MatAutocompleteModule, MatBadgeModule, MatBottomSheetModule,
+  MatButtonModule, MatButtonToggleModule, MatCardModule, MatCheckboxModule,
+  MatChipsModule, MatDatepickerModule, MatDialogModule, MatDividerModule,
+  MatExpansionModule, MatFormFieldModule, MatGridListModule, MatIconModule,
+  MatInputModule, MatListModule, MatMenuModule, MatNativeDateModule,
+  MatOptionModule, MatPaginatorModule, MatProgressBarModule,
+  MatProgressSpinnerModule, MatRadioModule, MatRippleModule, MatSelectModule,
+  MatSidenavModule, MatSliderModule, MatSlideToggleModule, MatSnackBarModule,
+  MatSortModule, MatStepperModule, MatTableModule, MatTabsModule, MatToolbarModule,
+  MatTooltipModule, MatTreeModule
+} from '@angular/material';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
+import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
+import { NguCarouselModule } from '@ngu/carousel';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu-components/menu.component';
-import { FooterComponent } from './menu-components/footer/footer.component';
-import { MainPageComponent } from './content/main-page/main-page.component';
-import { CarouselComponent } from './content/main-page/carousel/carousel.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule, MatCheckboxModule, MatToolbarModule, MatTableModule,
-  MatCardModule, MatGridListModule, MatBottomSheetModule, MatSortModule,
-  MatRippleModule, MatChipsModule, MatTabsModule,
-  MatListModule, MatIconModule, MatDividerModule,
-  MatMenuModule, MatProgressSpinnerModule, MatSnackBarModule,
-  MatDialogModule, MatTooltipModule, MatInputModule,
-  MatFormFieldModule, MatOptionModule, MatAutocompleteModule,
-  MatPaginatorModule, MatSelectModule, MatExpansionModule,
-  MatStepperModule, MatBadgeModule, MatButtonToggleModule,
-  MatDatepickerModule, MatNativeDateModule, MatProgressBarModule,
-  MatRadioModule, MatSidenavModule, MatSliderModule, MatSlideToggleModule, MatTreeModule
-} from '@angular/material';
-import { NguCarouselModule } from '@ngu/carousel';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { CdkTableModule } from '@angular/cdk/table';
-import { OverlayModule } from '@angular/cdk/overlay';
-import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
-import { ToolbarComponent } from './menu-components/toolbar/toolbar.component';
-import { PhonesSheetComponent } from './menu-components/phones-sheet/phones-sheet.component';
-import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
-import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
-import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.component';
-import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
+import { ContactsComponent } from './content/contacts/contacts.component';
 import { ContentComponent } from './content/content/content.component';
+import { CarouselComponent } from './content/main-page/carousel/carousel.component';
+import { MainPageComponent } from './content/main-page/main-page.component';
+import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
+import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
-import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
-import { SafeHtmlPipe } from './safe-html';
-import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { FilmsComponent } from './content/warmehaus/films/films.component';
-import { ContactsComponent } from './content/contacts/contacts.component';
-import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
-import { CdkTreeModule } from '@angular/cdk/tree';
-import { ScrollingModule } from '@angular/cdk/scrolling';
-import { RouterModule } from '@angular/router';
+import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
+import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
+import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
+import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
+import { BreadcrumbsComponent } from './menu-components/breadcrumbs/breadcrumbs.component';
+import { FooterComponent } from './menu-components/footer/footer.component';
+import { MenuComponent } from './menu-components/menu.component';
+import { PhonesSheetComponent } from './menu-components/phones-sheet/phones-sheet.component';
+import { ToolbarComponent } from './menu-components/toolbar/toolbar.component';
+import { SafeHtmlPipe } from './safe-html';
+
 
 @NgModule({
   declarations: [

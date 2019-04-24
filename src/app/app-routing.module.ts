@@ -1,15 +1,16 @@
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { MainPageComponent } from './content/main-page/main-page.component';
-import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
-import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
-import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
+import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
 import { Cab11WThinComponent } from './content/warmehaus/cab11-w-thin/cab11-w-thin.component';
 import { Cab14WThinComponent } from './content/warmehaus/cab14-w-thin/cab14-w-thin.component';
 import { Cab20WUvComponent } from './content/warmehaus/cab20-w-uv/cab20-w-uv.component';
-import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
 import { FilmsComponent } from './content/warmehaus/films/films.component';
-import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
+import { TermostatComponent } from './content/warmehaus/termostat/termostat.component';
+import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
+import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
+import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent },
@@ -30,7 +31,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  exports: [RouterModule],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
 })
 export class AppRoutingModule { }
