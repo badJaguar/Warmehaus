@@ -21,5 +21,8 @@ p{
     display: inline-flex;
     align-content: center;
     align-items: center;
-    
+}
+.contact-social{
+    display: flex;
+    justify-content: space-around;
 }

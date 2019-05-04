@@ -11,9 +11,11 @@ import { TermostatComponent } from './content/warmehaus/termostat/termostat.comp
 import { WarmehausComponent } from './content/warmehaus/warmehaus.component';
 import { WarmingMat160WComponent } from './content/warmehaus/warming-mat160-w/warming-mat160-w.component';
 import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/warming-mat200-w.component';
+import { ContactsComponent } from './content/contacts/contacts.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent },
+  { path: 'contacts', component: ContactsComponent },
   {
     path: 'warmehaus',
     component: WarmehausComponent,
@@ -31,7 +33,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: false})],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
 })

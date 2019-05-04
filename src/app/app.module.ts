@@ -68,7 +68,7 @@ import { SafeHtmlPipe } from './safe-html';
     SafeHtmlPipe,
     FilmsComponent,
     ContactsComponent,
-    AnitIcingComponent
+    AnitIcingComponent,
   ],
   imports: [
     MatCardModule, MatListModule, MatIconModule, MatDividerModule,

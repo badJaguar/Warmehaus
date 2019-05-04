@@ -11,7 +11,7 @@ export class PhonesSheetComponent implements OnInit {
   disableClose: boolean | undefined;
 
   constructor(private bottomSheetRef: MatBottomSheetRef<PhonesSheetComponent>) {}
-  // This function prohibits to close wimdow. Allows to close it by click outside the window.
+  // This function prohibits to close window. Allows to close it by click outside the window.
   // @HostListener('window:keyup.esc') onKeyUp() {
   //   this.bottomSheetRef.dismiss();
   // }
