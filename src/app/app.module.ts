@@ -27,7 +27,7 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactsComponent } from './content/contacts/contacts.component';
-import { ContentComponent } from './content/content/content.component';
+// import { ContentComponent } from './content/content/content.component';
 import { CarouselComponent } from './content/main-page/carousel/carousel.component';
 import { MainPageComponent } from './content/main-page/main-page.component';
 import { AnitIcingComponent } from './content/warmehaus/anit-icing/anit-icing.component';
@@ -61,7 +61,7 @@ import { SafeHtmlPipe } from './safe-html';
     WarmingMat200WComponent,
     BreadcrumbsComponent,
     Cab11WThinComponent,
-    ContentComponent,
+    // ContentComponent,
     Cab14WThinComponent,
     Cab20WUvComponent,
     TermostatComponent,

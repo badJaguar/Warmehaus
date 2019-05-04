@@ -14,7 +14,7 @@ import { WarmingMat200WComponent } from './content/warmehaus/warming-mat200-w/wa
 import { ContactsComponent } from './content/contacts/contacts.component';
 
 const routes: Routes = [
-  { path: '', component: MainPageComponent },
+  { path: 'home', component: MainPageComponent },
   { path: 'contacts', component: ContactsComponent },
   {
     path: 'warmehaus',
@@ -30,6 +30,7 @@ const routes: Routes = [
       { path: 'anti-icing', component: AnitIcingComponent },
     ]
   },
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
