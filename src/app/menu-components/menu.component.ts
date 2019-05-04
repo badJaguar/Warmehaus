@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { PhonesSheetComponent } from './phones-sheet/phones-sheet.component';
-import {MatBottomSheet} from '@angular/material';
+import { MatBottomSheet } from '@angular/material';
 
 @Component({
   selector: 'app-menu',
@@ -8,36 +8,21 @@ import {MatBottomSheet} from '@angular/material';
   styleUrls: ['./menu.component.css']
 })
 
-export class MenuComponent implements OnInit {
+export class MenuComponent {
 
-brand = 'assets/images/logo2.png';
+  @ViewChild('navBurger') navBurger: ElementRef;
+  @ViewChild('navMenu') navMenu: ElementRef;
 
-  constructor(private bottomSheet: MatBottomSheet) {}
+  brand = 'assets/images/logo2.png';
+
+  constructor(private bottomSheet: MatBottomSheet) { }
 
   openBottomSheet(): void {
     this.bottomSheet.open(PhonesSheetComponent);
   }
 
-  ngOnInit() {
+  toggleNavbar() {
+    this.navBurger.nativeElement.classList.toggle('is-active');
+    this.navMenu.nativeElement.classList.toggle('is-active');
   }
-
 }
-document.addEventListener('DOMContentLoaded', () => {
-
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  if ($navbarBurgers.length > 0) {
-
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
-
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-
-      });
-    });
-  }
-});

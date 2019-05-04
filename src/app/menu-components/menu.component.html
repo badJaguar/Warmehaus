@@ -7,16 +7,15 @@
     </a>
   </div>
 
-  
-  <div class="burger"><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-      data-target="navbarBasic">
+  <div class="burger"><a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger" aria-label="menu"
+      aria-expanded="false" data-target="navbarBasic">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasic" class="navbar-menu">
+  <div id="navbarBasic" class="navbar-menu" #navMenu>
     <a class="navbar-item" href="#" routerLink="" routerLinkActive="active">
       Главная
     </a>
@@ -45,20 +44,21 @@
         </a>
       </div>
     </div> -->
-<hr>
+    <hr>
     <div class="navbar-end">
       <div class="btn-item">
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=3523204@gmail.com" target="_blank">
-        <button mat-fab color="warn">
-          <mat-icon>email</mat-icon>
-        </button></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=3523204@gmail.com" target="_blank">
+          <button mat-fab color="warn">
+            <mat-icon>email</mat-icon>
+          </button></a>
       </div>
       <div class="btn-item">
 
-      <button mat-fab color="warn" (click)="openBottomSheet()">
-        <mat-icon>phone</mat-icon>
-      </button>
+        <button mat-fab color="warn" (click)="openBottomSheet()">
+          <mat-icon>phone</mat-icon>
+        </button>
       </div>
     </div>
+
   </div>
 </nav>

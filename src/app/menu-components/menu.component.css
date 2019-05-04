@@ -4,13 +4,16 @@
     display: flex;
     justify-content: center;
   }
-
   .navbar-menu {
     margin-left: 40%;
-    width: 50%;
+    width: 100%;
     background-color: #dddddd46;
   }
-
+  .outer-navbar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
   .btn-item {
     display: inline-flex;
     justify-content: space-around;
@@ -23,6 +26,7 @@
 
   .navbar {
     display: flex;
+
   }
 }
 
